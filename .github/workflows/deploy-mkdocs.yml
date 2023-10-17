@@ -31,15 +31,6 @@ jobs:
     - name: Setup CNAME
       run: echo 'manual.mr-leaves.com' > ./site/CNAME  # Create CNAME file in ./site
 
-    # Delete all files in main branch
-    - name: Cleanup main branch
-      run: |
-        git fetch origin main:main
-        git checkout main
-        git rm -r *
-        git commit -m "Cleanup main branch"
-        git push origin main
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
