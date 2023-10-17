@@ -22,7 +22,7 @@ Paper的插件可以直接放入**插件文件夹Plugins**里，通常可以从[
 ### 2.2.Forge
 
 **警告：强烈不建议新手玩家，自己组装中大型模组包，Debug问题将会非常麻烦**
-![Forge后台](minecraft\forge-1.png)  
+![Forge后台](\assets\minecraft\forge-1.png)  
 <br>
 
 #### 2.2.1.更换Forge版本的方式:
@@ -55,14 +55,14 @@ Paper的插件可以直接放入**插件文件夹Plugins**里，通常可以从[
 
 通常情况下CurseForge模板需要您申请API后才能使用，[申请地址](https://support.curseforge.com/en/support/solutions/articles/9000208346-about-the-curseforge-api-and-how-to-apply-for-a-key#key)。  
 **但MLSG已经获批企业第三方API，可以直接使用，只需用户填入Project-ID和File-ID即可。**  
-![CurseForge后台](minecraft\curseforge-panel.png)
+![CurseForge后台](\assets\minecraft\curseforge-panel.png)
 <center>**Project-ID可以在对应CurseForge模组包的主页右侧找到**  
 **File-ID则在，具体文件页面的顶部URL最后部分（服务器必须要Server Pack的File-ID）**</center>
 
-![CurseForge-IDs](minecraft\curseforge-1.png)
-![CurseForge-IDs](minecraft\curseforge-2.png)
-![CurseForge-IDs](minecraft\curseforge-3.png)
-![CurseForge-IDs](minecraft\curseforge-4.png)  
+![CurseForge-IDs](\assets\minecraft\curseforge-1.png)
+![CurseForge-IDs](\assets\minecraft\curseforge-2.png)
+![CurseForge-IDs](\assets\minecraft\curseforge-3.png)
+![CurseForge-IDs](\assets\minecraft\curseforge-4.png)  
 <br>
 
 ## 3.注意事项
