@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "OPlusSans3";
+    src: url("fonts/OPlusSans3-Medium.ttf") format('truetype');
+}
+
+:root {
+    --md-text-font: "OPlusSans3"; 
+}
