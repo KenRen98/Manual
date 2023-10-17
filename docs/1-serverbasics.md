@@ -23,7 +23,7 @@
 ### <center>2.2.文件页</center>
 <center>文件管理和传输</center>
 <center>（小于100M且少于50个文件）</center>
-![文件页](assets\1.0\file-page.png)  
+![文件页](\assets\1.0\file-page.png)  
 <center>注：大文件请按照该教程操作</center>  
 
 <br>
@@ -35,55 +35,55 @@
 ### <center>2.4.计划页</center>
 <center>创建周期性计划</center>
 <center>（指令，备份，重启等）</center>
-![计划页](assets\1.0\plan-page.png)  
+![计划页](\assets\1.0\plan-page.png)  
 
   <center>定义计划</center>
-![计划页1](assets\1.0\plan-step1.png)  
+![计划页1](\assets\1.0\plan-step1.png)  
 
   <center>创建任务</center>
-![计划页2](assets\1.0\plan-step2.png)  
+![计划页2](\assets\1.0\plan-step2.png)  
 
 <br>
 ### <center>2.5.子用户</center>
 <center>邀请子用户使用后台</center>
 <center>（也需要启用2FA才能操作后台）</center>
-![子用户](assets\1.0\subuser-page.png)  
+![子用户](\assets\1.0\subuser-page.png)  
 
   <center>子用户权限设置</center>
-![子用户1](assets\1.0\subuser-step1.png)  
+![子用户1](\assets\1.0\subuser-step1.png)  
 
 <br>
 ### <center>2.6.备份页</center>
 <center>服务器备份和还原</center>
 <center>（请务必在服务器关闭状态下创建备份）</center>
-![创建备份](assets\1.0\backup-page.png)  
+![创建备份](\assets\1.0\backup-page.png)  
 
   <center>创建备份</center>
-![创建备份](assets\1.0\backup-step1.png)  
+![创建备份](\assets\1.0\backup-step1.png)  
 
   <center>还原备份</center>
-![创建备份](assets\1.0\backup-step2.png)  
+![创建备份](\assets\1.0\backup-step2.png)  
 
 <br>
 ### <center>2.7.网络页</center>
 <center>查看和管理可用端口</center>
 <center>（首选端口通常为服务器连接端口）</center>
-![网络页](assets\1.0\network-page.png)  
+![网络页](\assets\1.0\network-page.png)  
 
 <br>
 ### <center>2.8.启动页</center>
 <center>启动命令和变量管理</center>
 <center>（编辑启动命令请联系管理员）</center>
-![启动页](assets\1.0\boot-page.png)  
+![启动页](\assets\1.0\boot-page.png)  
 
 <br>
 ### <center>2.9.设置页</center>
 <center>连接SFTP/重装服务器</center>
 <center>（具体教程请阅读进阶操作）</center>
-![设置页](assets\1.0\setting-page.png)  
+![设置页](\assets\1.0\setting-page.png)  
 
 <br>
 ### <center>2.10.日志页</center>
 <center>服务器操作日志</center>
 <center>（电源/命令/文件/备份等操作记录）</center>
-![设置页](assets\1.0\record-page.png)  
+![设置页](\assets\1.0\record-page.png)  
