@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://manual.mr-leaves.com/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/0-serversignup/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/1-serverbasics/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/2-serveradvanced/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/3-servergames/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/about/</loc>
+         <lastmod>2023-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
