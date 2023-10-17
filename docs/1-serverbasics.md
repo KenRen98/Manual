@@ -8,7 +8,7 @@
 
 仪表盘区域会显示您所有的服务器，包括一些基本信息。正在安装中的服务器部分功能无法访问。  
 **注：服务器安装/重装完成后会有邮件通知，无需一直刷新等待。**  
-![服务器仪表盘](assets\1.0\header.png)  
+![服务器仪表盘](\assets\1.0\header.png)  
 <br>
 
 ## 2.操作页面
@@ -17,7 +17,7 @@
 
 ### <center>2.1.控制台</center>
 <center>核心功能操作区域</center>
-![控制台](assets\1.0\controll-page.png)  
+![控制台](\assets\1.0\controll-page.png)  
 
 <br>
 ### <center>2.2.文件页</center>
