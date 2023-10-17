@@ -22,7 +22,7 @@ Paper的插件可以直接放入**插件文件夹Plugins**里，通常可以从[
 ### 2.2.Forge
 
 **警告：强烈不建议新手玩家，自己组装中大型模组包，Debug问题将会非常麻烦**
-![Forge后台](minecraft\forge-1.png)  
+![Forge后台](.\minecraft\forge-1.png)  
 <br>
 
 #### 2.2.1.更换Forge版本的方式:
