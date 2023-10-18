@@ -1,4 +1,4 @@
-# 操作入门
+# 基本操作
 
 后台基本操作的简单教程，具体每个不同游戏的教程图文，请查看后续教程。
 
@@ -24,7 +24,7 @@
 <center>文件管理和传输</center>
 <center>（小于100M且少于50个文件）</center>
 ![文件页](\assets\1.0\file-page.png)  
-<center>注：大文件请按照该教程操作</center>  
+<center>**注：超过50个，或超过100M请按照[该教程](/2-serveradvanced/filetransfer/)传输文件**</center>  
 
 <br>
 ### <center>2.3.数据库</center>
