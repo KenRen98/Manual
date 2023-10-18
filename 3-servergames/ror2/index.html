@@ -80,6 +80,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#2risk-of-rain-2" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -356,7 +361,7 @@
               
   
   <span class="md-ellipsis">
-    5.具体游戏
+    5.游戏教程
   </span>
   
 
@@ -372,7 +377,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            5.具体游戏
+            5.游戏教程
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -490,6 +495,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    雨中冒险2（RoR2）
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -500,6 +518,66 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1.推荐配置
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.开服教程
+  </a>
+  
+    <nav class="md-nav" aria-label="2.开服教程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    2.1.端口设置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    2.2.额外的设置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.注意事项
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -609,6 +687,57 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1.推荐配置
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.开服教程
+  </a>
+  
+    <nav class="md-nav" aria-label="2.开服教程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    2.1.端口设置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    2.2.额外的设置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.注意事项
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -623,9 +752,31 @@
                   
 
 
-  <h1>雨中冒险2（RoR2）</h1>
-
-
+<h1 id="2risk-of-rain-2">风险之雨2（Risk of Rain 2）</h1>
+<p>一款多人合作的，纯爽动作射击游戏。</p>
+<hr />
+<h2 id="1">1.推荐配置</h2>
+<p><strong>2C/4G起跳，适合最多6-8人，4C/8G顶配，适合8-20人。</strong><br />
+<strong>由于该游戏几乎是单核心为主的，所以单核心性能对于多人影响大。</strong><br />
+CPU升级路线：Intel-E5 &lt; Ryzen2000 &lt; Intel-10th &lt; Ryzen3000 &lt; Ryzen5000 &lt; Ryzen7000 <br />
+<br></p>
+<h2 id="2">2.开服教程</h2>
+<p><strong>控制台指令，请查看<a href="https://riskofrain2.fandom.com/wiki/Developer_Console">官方文档</a></strong>  </p>
+<h3 id="21">2.1.端口设置</h3>
+<p>请手动到 <code>/home/container/Risk of Rain 2_Data/Config/server.cfg</code> 文件内<br />
+修改 游戏端口（sv_port） 到服务器主端口（见后台网络页面），如图
+<img alt="端口设置" src="/assets/ror2/port-1.png" />
+<img alt="端口设置" src="/assets/ror2/port-2.png" />  </p>
+<h3 id="22">2.2.额外的设置</h3>
+<ul>
+<li><strong>设置服务器标识TAGs</strong>: 使用 <code>sv_custom_tags ""</code>  </li>
+<li><strong>设置游戏模式</strong>: 经典或者无限 (Classic or Simulacrum) 使用 <code>gamemode ""</code><br />
+<br></li>
+</ul>
+<h2 id="3">3.注意事项</h2>
+<ul>
+<li>请确保端口设置正确，以确保玩家能够顺利连接到服务器。</li>
+</ul>
 
 
   
