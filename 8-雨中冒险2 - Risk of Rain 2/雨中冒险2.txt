@@ -1,0 +1,11 @@
+官方文档：https://riskofrain2.fandom.com/wiki/Developer_Console
+
+注意事项:
+- 请手动到 /home/container/Risk of Rain 2_Data/Config/server.cfg 文件内修改游戏端口到服务器主端口
+
+
+额外的设置:
+- 设置服务器标识TAGs - sv_custom_tags ""
+- 设置游戏模式，经典或者无限 (Classic or Simulacrum) - gamemode ""
+
+

@@ -1,0 +1,100 @@
+所有指令，请看以下网站：
+https://totalcsgo.com/commands
+
+设置创意工坊地图或合集（CS2暂不可用）
+host_workshop_map xxxxxxxxxxx
+host_workshop_collection xxxxxxxxxxx
+
+改变游戏模式
+game_mode <Game Mode>
+game_type <Game Type>
+---------------------------------------------
+Name	                game_type	game_mode
+Casual	                    0	        0
+Competitive	                0	        1
+Scrim Competitive 2v2	    0	        2
+Scrim Competitive 5v5	    0	        2
+Arms Race / Gun Game	    1	        0
+Demolition	                1	        1
+Deathmatch	                1	        2
+Training	                2	        0
+Custom	                    3	        0
+Cooperative	                4	        0
+Skirmish	                5	        0
+---------------------------------------------
+
+服务器公告
+say <Message>
+
+设置地图
+不踢玩家换图 map <Map Code>
+踢出玩家换图 changelevel <Map Name>
+-------------------------------------------------------------------
+Name                                  Code           CS Version
+Subzero                            de_subzero          CS:GO
+Bank                               de_bank             CS:GO
+Inferno                            de_inferno          CS:GO & CS2
+Rialto                             gd_rialto           CS:GO
+Cobblestone                        de_cbble            CS:GO
+Shoots                             ar_shoots           CS:GO
+Dust II (Vanity)                   de_dust2_vanity     CS2
+Train                              de_train            CS:GO
+St. Marc                           de_stmarc           CS:GO
+Italy (Vanity)                     cs_italy_vanity     CS2
+Monastery                          ar_monastery        CS:GO
+Biome                              de_biome            CS:GO
+Mirage                             de_mirage           CS:GO & CS2
+Safehouse                          de_safehouse        CS:GO
+Assault                            cs_assault          CS:GO
+Cache                              de_cache            CS:GO
+Shortnuke                          de_shortnuke        CS:GO
+Shortdust                          de_shortdust        CS:GO
+Shorttrain (Removed from game)     de_shorttrain       CS:GO
+Anubis (Vanity)                    de_anubis_vanity    CS2
+Sugarcane                          de_sugarcane        CS:GO
+Lake                               de_lake             CS:GO
+Vertigo                            cs_vertigo          CS:GO & CS2
+Baggage                            ar_baggage          CS:GO
+Austria                            de_austria          CS:GO
+Nuke                               de_nuke             CS:GO & CS2
+Nuke (Vanity)                      de_nuke_vanity      CS2
+Anubis                             de_anubis           CS2
+Dizzy                              ar_dizzy            CS:GO
+Overpass (Vanity)                  de_overpass_vanity  CS2
+Inferno (Vanity)                   de_inferno_vanity   CS2
+Agency                             cs_agency           CS:GO
+Italy                              cs_italy            CS:GO & CS2
+Canals                             de_canals           CS:GO
+Overpass                           de_overpass         CS:GO & CS2
+Ancient                            de_ancient          CS:GO & CS2
+Ancient (Vanity)                   de_ancient_vanity   CS2
+Mirage (Vanity)                    de_mirage_vanity    CS2
+Dust II                            de_dust2            CS:GO & CS2
+Office                             cs_office           CS:GO & CS2
+-------------------------------------------------------------------
+
+设置最大AI机器人数量
+bot_quota <Amount>
+(设置为0就无法生成机器人)
+
+设置AI机器人难度
+bot_difficulty <Difficulty>
+---------------------------------------------
+0 - easy
+1 - normal
+2 - hard
+3 - expert
+---------------------------------------------
+
+设置AI机器人加入模式
+---------------------------------------------
+normal - 正常模式
+fill - 等于Quota
+match - 等于玩家数量
+---------------------------------------------
+
+设置购买时间限制
+mp_buytime <Seconds>
+
+设置DeathMatch无敌时间(仅本局有效)
+mp_respawn_immunitytime <Seconds>

@@ -1,0 +1,7 @@
+请在后台运行以下指令
+
+改变玩家移动速度
+c_select (AllPlayers [1]) c_speedmult (5)
+
+使玩家可以免费制作物品
+c_select (AllPlayers [1]) c_freecrafting (1)

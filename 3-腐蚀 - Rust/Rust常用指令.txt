@@ -1,0 +1,15 @@
+umod上有写 command / permission
+用rust自带的 oxide.grant xxx 权限，给玩家对应的权限
+然后就能用对应的功能了 （默认的玩家组：admin, default）
+
+oxide.show groups 显示所有玩家组
+oxide.show group admin 显示某组内玩家
+
+设置服务器管理员
+moderatorid <STEAMID64> <NAME (or) REASON>
+
+设置服务器主人
+moderatorid <STEAMID64> <NAME (or) REASON>
+
+保存服务器设置
+server.writecfg

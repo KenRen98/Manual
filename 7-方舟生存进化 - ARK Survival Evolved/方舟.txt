@@ -1,0 +1,39 @@
+服务器设置文件:
+- shootergame/Saved/Config/LinuxServer/GameUserSettings.ini
+
+注意事项:
+- 关机时请按下关机键，输入rcon回车，再输入:q回车，然后等待服务器正常关闭。
+- 翼龙后台无法开多通世界服务器，多通请使用Windows服务器+ARK服务器管理器实现
+- ARK服务器管理器链接 https://arkservermanager.freeforums.net/thread/5193/downloads
+
+BUG:
+- 由于Rcon问题，输入rcon才会正确连接到rcon，但rcon指令不会有回传响应
+- 输入rcon回车后会提示 Waiting commands for 127.0.0.1:27020 (or type :q to exit), 
+- 输入:q后服务器会在1-2分钟内正常自动关机
+
+全部指令请看：
+https://arkids.net/commands
+
+-------------------------------------------------------------------------------------------------------------------------
+Type        Command                                           Description
+-------------------------------------------------------------------------------------------------------------------------
+Server      SetCheatPlayer <True / False>                     Enables or disables the cheat menu for the player.
+Server      cheat Fly                                         Allows the player to fly.
+Server      cheat addexperience [number] 0 0                  Adds the specified amount of experience.
+Server      cheat broadcast [message]                         Broadcasts a message to everyone on the server.
+Server      cheat destroyallenemies                          Destroys all enemies, they respawn eventually.
+Server      cheat destroyall [classname]                     Destroys all instances of the creatures of the classname.
+Server      cheat destroytribeplayers                        Destroys all players of a tribe on the ARK.
+Server      cheat destroytribedinos                          Destroys all dinos of a tribe on the ARK.
+Server      cheat destroytribestructures                      Destroys all structures of a tribe on the ARK.
+Server      cheat forcetame                                  Instantly tames a dinosaur, even if it's un-tamable.
+Server      cheat giveitemnum [item_id] [quantity] 1 0       Gives you an item.
+Server      cheat god                                        Enables god mode, making you invincible.
+Server      cheat infinitestats                              Gives infinite hunger, stamina, and infinite ammo.
+Server      cheat kill                                       Kills the creature you are looking at.
+Server      cheat saveworld                                  Saves the current world state.
+Server      cheat settimeofday [time]                        Changes the time of day, for example, "settimeofday 12:00".
+Server      cheat slomo [speed]                              Changes the game speed on the server, such as player movement, use slomo 1 to revert to normal speed.
+Server      cheat toggleinfiniteammo                         Toggles on or off infinite ammo.
+Server      cheat ClearPlayerInventory <UE4 ID> <Inventory> <Slot Items> <Equipped Items>   Clears the player's inventory based on the specified parameters.
+-------------------------------------------------------------------------------------------------------------------------

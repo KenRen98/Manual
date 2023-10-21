@@ -1,0 +1,49 @@
+注意事项:
+- 请在 /home/container/serverconfig 文件夹设置对应的游戏设置后再运行服务器
+- ownerswhitelist.txt 用于填写对应服务器所有者SteamID
+- dedicatedserver.cfg 请更改GamePort到服务器主口，Blob和Query口请根据设置更改
+
+-------------------------------------------------------------------------------------------------------------------------
+Type        Command                                           Description
+-------------------------------------------------------------------------------------------------------------------------
+Player      addallitems                                       将每个物品的完整堆叠添加到您的库存中。
+Player      addallstoryitems                                  将故事所需的物品添加到您的库存中。
+Player      additem [item name]                               将指定的物品添加到您的库存中。
+Player      additemswithtag [item tag]                        将带有指定标签的物品添加到您的库存中。
+Player      godmode [on/off]                                  启用/禁用上帝模式，使您变得无敌，并提供最大的健康、饥饿、水化和能量。
+Player      speedyrun [on/off]                                允许您以比正常更高的速度运行。
+Player      superjump [on/off]                                启用时允许您跳得比平常更高。
+Player      instantbookbuild [on/off]                         当在建筑书中选择时，允许您立即建造任何东西。
+Player      setplayerrace [number]                            更改玩家角色的皮肤颜色。
+Player      gotocoords [X number] [Z number] [Y number]       在设置的坐标处生成。
+World       addcharacter robby [number]                       将定义数量的Kelvins生成到游戏中。
+World       addcharacter virginia [number]                    将定义数量的Virginias生成到游戏中。
+World       aiangerlevel [number]                             更改所有AI的愤怒级别。
+World       aianimspeed [number]                              更改所有AI的动画速度（1是默认值，所以10非常快，0.1非常慢）。
+World       aiarmorlevel [number]                             更改AI的保护量。
+World       aidisable [on/off]                                从游戏中添加/删除所有AI。
+World       aidummy [on/off]                                  使AI不知道/知道你的存在。
+World       aigodmode [on/off]                                使AI变得无敌。
+World       aipause [on/off]                                  立即暂停所有AI（如果暂停游戏则会关闭）。
+World       animalsenabled [on/off]                           打开时删除所有动物。
+World       spawnitem [物品代码] [数量]                        生成指定数量的指定项目。
+World       spawnitem 78 50                                   生成50个日志。
+World       spawnitem 362 50                                  生成50箱手枪弹药。
+World       spawnitem 363 50                                  生成50箱霰弹枪弹。
+World       spawnitem 364 50                                  生成50箱雀斑霰弹枪弹壳。
+World       spawnitem 369 50                                  生成50箱电击枪弹药。
+World       settimeofday [number between 1 and 24]            设置一天的时间。
+World       treescutall [on/off]                              剪切玩家周围的所有树木，如果您想为基地腾出空间则非常有用。
+System      airadar [on/off]                                  在每个AI的脚下创建一个框，显示它们与玩家的距离。
+System      aishowdebugcamera [on/off]                        将摄像机位置移出您的角色的视角。
+System      aishowstats [on/off]                              在每个AI的脚下创建一个框，显示它们的总体愤怒、恐惧和能量统计。
+System      aishowsurvivalstats [on/off]                      在AI的脚下创建一个框，显示它们的饱和度、水化和能量统计。
+System      aistatadjust [stat] [+/- number]                  允许您更改AI的个体统计数据。
+System      aivillageclosest [on/off]                         创建一个框，显示最近的村庄距离玩家的距离和方向。
+System      aiworldeventstats [on/off]                        在左上角显示一个框，显示食人族的愤怒、一天的时间和其他世界事件。
+System      aiworldstats [on/off]                             在左上角显示一个框，显示整个世界的食人族、动物和其他AI的统计数据。
+System      aizonestats [on/off]                              在左上角显示一个框，显示您当前区域的食人族、动物和其他AI的统计数据。
+System      showfps [on/off]                                  在右上角显示您的FPS计数。
+System      showhud [on/off]                                  切换HUD的开和关。
+System      showui [on/off]                                   切换UI的开和关。
+-------------------------------------------------------------------------------------------------------------------------

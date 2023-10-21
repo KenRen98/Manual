@@ -1,0 +1,406 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 39%
+	Available Physical Memory: 6217m/10233m
+	Available Page File: 8242m/12409m
+	Available Virtual Memory: 4014m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 13m
+	Working Set Size: 13m
+	Quota Peak Page Pool Usage: 151k
+	Quota Page Pool Usage: 151k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 2m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Server1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 490729
+[00:00:00]: Current time: Sat Jan 01 00:21:00 2022
+
+[00:00:00]: Don't Starve Together: 490729 WIN32
+[00:00:00]: Build Date: 7148
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster Server1 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (8672)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12301)
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12302)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:2.60
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (5592)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\server1\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/Server1/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (5656)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/Server1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/Server1/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Server1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Server1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.19044
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  8
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+    manufacturer              GenuineIntel
+    clockSpeed                4008
+  RAM                       
+    megsOfRam                 10240
+  GPU                       
+    name                      Microsoft Remote Display Adapter
+    driverDate                20060621000000.000000-000
+    megsOfRam                 0
+    refreshRate               32
+    videoModeDescription      2352 x 1546 x 4294967296 种颜色
+    driverVersion             10.0.19041.662
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-2287303119	
+[00:00:02]: modoverrides.lua enabling workshop-599498678	
+[00:00:02]: modoverrides.lua enabling workshop-378160973	
+[00:00:02]: modoverrides.lua enabling workshop-1840284484	
+[00:00:02]: modoverrides.lua enabling workshop-1595631294	
+[00:00:02]: modoverrides.lua enabling workshop-1216718131	
+[00:00:02]: modoverrides.lua enabling workshop-2564938022	
+[00:00:02]: modoverrides.lua enabling workshop-462434129	
+[00:00:02]: modoverrides.lua enabling workshop-375859599	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1216718131	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-462434129	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-599498678	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2564938022	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1840284484	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1216718131_CLIENT	
+[00:00:02]: Loading mod: workshop-1216718131 (防卡两招(Antistun)) Version:1.0.7	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1595631294_CLIENT	
+[00:00:02]: Loading mod: workshop-1595631294 (Smart Minisign) Version:1.1.5	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:02]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-462434129_CLIENT	
+[00:00:02]: Loading mod: workshop-462434129 (Restart) Version:0.3.2	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-599498678_CLIENT	
+[00:00:02]: Loading mod: workshop-599498678 (Tools Are Fuels) Version:1.2	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2287303119_CLIENT	
+[00:00:02]: Loading mod: workshop-2287303119 (Show Me (中文)) Version:0.57.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2564938022_CLIENT	
+[00:00:02]: Loading mod: workshop-2564938022 (访客掉落) Version:1.0.8	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1840284484_CLIENT	
+[00:00:02]: Loading mod: workshop-1840284484 (Achievements and Level System) Version:3.7.1b	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:02]: Loading mod: workshop-375859599 (Health Info) Version:2.2.02	
+[00:00:02]: Mod: workshop-2287303119 (Show Me (中文))	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-2287303119 (Show Me (中文))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-2287303119 (Show Me (中文))	Loading modmain.lua	
+[00:00:02]: ShowMe version:	0.57.0	
+[00:00:02]: show_food_units	-1	-1	-1	
+[00:00:02]: show_uses	-1	-1	-1	
+[00:00:02]: Detected language for ShowMe: 	Auto		
+[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:02]: Mod: workshop-1216718131 (防卡两招(Antistun))	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1216718131 (防卡两招(Antistun))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1216718131 (防卡两招(Antistun))	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-1216718131/scripts/stack.lua	
+[00:00:02]: modimport: ../mods/workshop-1216718131/scripts/clean.lua	
+[00:00:02]: Mod: workshop-2564938022 (访客掉落)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-2564938022 (访客掉落)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-2564938022 (访客掉落)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-599498678 (Tools Are Fuels)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-599498678 (Tools Are Fuels)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-599498678 (Tools Are Fuels)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-462434129 (Restart)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-462434129 (Restart)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-462434129 (Restart)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1216718131	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-462434129	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-599498678	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2564938022	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1840284484	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:02]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-1595631294 (Smart Minisign)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1595631294 (Smart Minisign)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1595631294 (Smart Minisign)	Loading modmain.lua	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering Server mod namespace "workshop-378160973"
+[00:00:03]: Registering Server mod namespace "showmeshint"
+[00:00:03]: Registering Server mod namespace "dstachievement"
+[00:00:03]: Registering Server mod namespace "showme"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: Mod: workshop-2287303119 (Show Me (中文))	Registering prefabs	
+[00:00:05]: Mod: workshop-2287303119 (Show Me (中文))	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-1216718131 (防卡两招(Antistun))	Registering prefabs	
+[00:00:05]: Mod: workshop-1216718131 (防卡两招(Antistun))	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-2564938022 (访客掉落)	Registering prefabs	
+[00:00:05]: Mod: workshop-2564938022 (访客掉落)	  Registering prefab file: prefabs/touxian	
+[00:00:05]: Mod: workshop-2564938022 (访客掉落)	    touxian	
+[00:00:05]: Mod: workshop-2564938022 (访客掉落)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-599498678 (Tools Are Fuels)	Registering prefabs	
+[00:00:05]: Mod: workshop-599498678 (Tools Are Fuels)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-462434129 (Restart)	Registering prefabs	
+[00:00:05]: Mod: workshop-462434129 (Restart)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
+[00:00:05]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-1595631294 (Smart Minisign)	Registering prefabs	
+[00:00:05]: Mod: workshop-1595631294 (Smart Minisign)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (9052)
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: FilesExistAsyncThread started (19092 files)...
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 43472 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_pNe3rzyZ) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: false
+[00:00:06]:   ServerPort: 10999
+[00:00:06]:   SteamAuthPort: 12302
+[00:00:06]:   SteamMasterServerPort: 12301
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: false
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 16
+[00:00:06]:   GameMode: endless
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: true
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: social
+[00:00:06]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2287303119	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-599498678	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1840284484	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1595631294	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1216718131	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2564938022	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:06]: [Error] Server failed to start!
+[00:00:06]: Unhandled exception during server startup: RakNet UDP startup failed: SOCKET_PORT_ALREADY_IN_USE (5)
+[00:00:06]: PushNetworkDisconnectEvent With Reason: "ID_DST_INITIALIZATION_FAILED", reset: false
+[00:00:06]: Details: SOCKET_PORT_ALREADY_IN_USE
+[00:00:06]: [Shard] Stopping shard mode
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_pNe3rzyZ) from TokenPurpose
+[00:30:06]: Starting Dedicated Server Game	
+[00:30:06]: Network tick rate: U=15(2), D=0
+[00:30:06]: About to start a server with the following settings:
+[00:30:06]:   Dedicated: true
+[00:30:06]:   Online: true
+[00:30:06]:   Passworded: false
+[00:30:06]:   ServerPort: 10999
+[00:30:06]:   SteamAuthPort: 12302
+[00:30:06]:   SteamMasterServerPort: 12301
+[00:30:06]:   ClanID: false
+[00:30:06]:   ClanOnly: false
+[00:30:06]:   ClanAdmin: false
+[00:30:06]:   LanOnly: false
+[00:30:06]:   FriendsOnly: false
+[00:30:06]:   EnableAutosaver: true
+[00:30:06]:   EncodeUserPath: true
+[00:30:06]:   PVP: false
+[00:30:06]:   MaxPlayers: 16
+[00:30:06]:   GameMode: endless
+[00:30:06]:   OverridenDNS: 
+[00:30:06]:   PauseWhenEmpty: true
+[00:30:06]:   IdleTimeout: 1800s
+[00:30:06]:   VoteEnabled: true
+[00:30:06]:   InternetBroadcasting: true
+[00:30:06]:   Intent: social
+[00:30:06]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-2287303119	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-599498678	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-1840284484	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-1595631294	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-1216718131	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-2564938022	
+[00:30:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:30:06]: [Error] Server failed to start!
+[00:30:06]: Unhandled exception during server startup: RakNet UDP startup failed: SOCKET_PORT_ALREADY_IN_USE (5)
+[00:30:06]: PushNetworkDisconnectEvent With Reason: "ID_DST_INITIALIZATION_FAILED", reset: false
+[00:30:06]: Details: SOCKET_PORT_ALREADY_IN_USE
+[00:30:06]: [Shard] Stopping shard mode
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_pNe3rzyZ) from TokenPurpose
+[01:00:06]: Starting Dedicated Server Game	
+[01:00:06]: Network tick rate: U=15(2), D=0
+[01:00:06]: About to start a server with the following settings:
+[01:00:06]:   Dedicated: true
+[01:00:06]:   Online: true
+[01:00:06]:   Passworded: false
+[01:00:06]:   ServerPort: 10999
+[01:00:06]:   SteamAuthPort: 12302
+[01:00:06]:   SteamMasterServerPort: 12301
+[01:00:06]:   ClanID: false
+[01:00:06]:   ClanOnly: false
+[01:00:06]:   ClanAdmin: false
+[01:00:06]:   LanOnly: false
+[01:00:06]:   FriendsOnly: false
+[01:00:06]:   EnableAutosaver: true
+[01:00:06]:   EncodeUserPath: true
+[01:00:06]:   PVP: false
+[01:00:06]:   MaxPlayers: 16
+[01:00:06]:   GameMode: endless
+[01:00:06]:   OverridenDNS: 
+[01:00:06]:   PauseWhenEmpty: true
+[01:00:06]:   IdleTimeout: 1800s
+[01:00:06]:   VoteEnabled: true
+[01:00:06]:   InternetBroadcasting: true
+[01:00:06]:   Intent: social
+[01:00:06]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-2287303119	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-599498678	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-1840284484	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-1595631294	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-1216718131	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-2564938022	
+[01:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[01:00:06]: [Error] Server failed to start!
+[01:00:06]: Unhandled exception during server startup: RakNet UDP startup failed: SOCKET_PORT_ALREADY_IN_USE (5)
+[01:00:06]: PushNetworkDisconnectEvent With Reason: "ID_DST_INITIALIZATION_FAILED", reset: false
+[01:00:06]: Details: SOCKET_PORT_ALREADY_IN_USE
+[01:00:06]: [Shard] Stopping shard mode
+[01:07:45]: Collecting garbage...
+[01:07:45]: lua_gc took 0.05 seconds
+[01:07:45]: ~ShardLuaProxy()
+[01:07:45]: ~cEventLeaderboardProxy()
+[01:07:45]: ~ItemServerLuaProxy()
+[01:07:45]: ~InventoryLuaProxy()
+[01:07:45]: ~NetworkLuaProxy()
+[01:07:45]: ~SimLuaProxy()
+[01:07:45]: lua_close took 0.06 seconds
+[01:07:45]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:07:45]: CurlRequestManager::ClientThread::Main() complete
+[01:07:45]: HttpClient2 discarded 0 callbacks.
+[01:07:45]: Shutting down

@@ -1,0 +1,21 @@
+KLEI     1 return {
+	override_enabled = true,
+	worldgen_preset = "DST_CAVE",
+	settings_preset = "DST_CAVE",
+	overrides = {
+		flower_cave_regrowth = "fast",
+		grass = "often",
+		krampus = "often",
+		liefs = "often",
+		lightflier_flower_regrowth = "fast",
+		sapling = "often",
+		spider_dropper = "often",
+		spider_hider = "often",
+		spiderqueen = "often",
+		spiders = "often",
+		spiders_setting = "often",
+		toadstool = "often",
+		world_size = "huge",
+		wormlights = "often",
+	},
+}
