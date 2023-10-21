@@ -2,11 +2,15 @@
 
 翼龙面板开服的中文说明书，各类开服说明的文档和截图教程。  
 本站涵盖两个部分，1是**中文手册网站**，2是**自动化部署脚本**。  
+<<<<<<< HEAD
+该文档的初衷是用于避免每次手动向用户发送教程/说明书等内容。  
+=======
 
 该文档的初衷是用于避免每次手动向用户发送教程/说明书，配置文件模板，后台指令表等内容。  
 
 **图文教程请看：[翼龙面板MLSG图文教程网站](https://manual.mr-leaves.com/)**
 
+>>>>>>> b6f819b34f3100bf07a506fceab3e4ab8ed9538e
 本文档基于[翼龙中国](https://github.com/pterodactyl-china/panel)面板而撰写，同样适用于[Pterodactyl原版](https://github.com/pterodactyl/panel)面板  
 游戏预设(Egg)除原版自带以外，均来自以下俩开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
 
@@ -52,6 +56,9 @@
 - **雨中冒险2  -  Risk of Rain 2**
 
 
+<<<<<<< HEAD
+
+=======
 ## 使用方法
 
 请将以下安装指令填在需要的Egg的安装脚本的最后  
@@ -71,3 +78,4 @@ rm $HOME/mlsg_install.sh
 HOME=<HOME Directory>
 # 一般都为/mnt/server
 ```
+>>>>>>> b6f819b34f3100bf07a506fceab3e4ab8ed9538e

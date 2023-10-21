@@ -41,4 +41,11 @@
 
 ## 3.来源声明
 本文档基于[翼龙中国](https://github.com/pterodactyl-china/panel)面板而撰写，同样适用于[Pterodactyl原版](https://github.com/pterodactyl/panel)面板，主要为经验总结  
+<<<<<<< HEAD
 游戏预设除面板自带外，均来自以下开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
+
+## 4.参与贡献
+如果您也想贡献您的知识，可以加入我们的[Github Repo](https://github.com/Mr-Leaves-Server-Group/Manual)参与代码或者知识的贡献！
+=======
+游戏预设除面板自带外，均来自以下开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
+>>>>>>> b6f819b34f3100bf07a506fceab3e4ab8ed9538e
