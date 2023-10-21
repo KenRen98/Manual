@@ -1,6 +1,7 @@
 name: Deploy MkDocs to GitHub Pages
 
 on:
+<<<<<<< HEAD
   push:
     branches:
       - mkdocs  # Trigger the workflow on push to mkdocs branch
@@ -8,6 +9,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+=======
+  pull_request:
+    types:
+      - closed
+    branches:
+      - mkdocs  # Trigger the workflow on merge to mkdocs branch
+  push:
+    branches:
+      - mkdocs  # Keep this if you also want to trigger on direct push to mkdocs branch
+
+jobs:
+  deploy:
+    # Only run the job if the pull request was merged (not just closed without merging)
+    if: github.event.pull_request.merged == true
+    runs_on: ubuntu-latest
+>>>>>>> b6f819b34f3100bf07a506fceab3e4ab8ed9538e
 
     steps:
     - name: Checkout Source
@@ -36,4 +53,8 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site  # The directory where MkDocs builds the site, usually './site'
+<<<<<<< HEAD
         publish_branch: main  # Publish to main branch for GitHub Pages
+=======
+        publish_branch: pages  # Publish to main branch for GitHub Pages
+>>>>>>> b6f819b34f3100bf07a506fceab3e4ab8ed9538e
