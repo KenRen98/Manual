@@ -44,5 +44,5 @@
 游戏预设除面板自带外，均来自以下开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
 
 ## 4.参与贡献
-如果您也想贡献您的知识，可以加入我们的[Github Repo](https://github.com/Mr-Leaves-Server-Group/Manual)参与代码或者知识的贡献！
+如果您也想贡献您的知识，可以加入我们的 [Github Repo](https://github.com/Mr-Leaves-Server-Group/Manual) 参与代码或者知识的贡献！
 
