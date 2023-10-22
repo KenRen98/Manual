@@ -25,7 +25,7 @@ if grep -q 'Alpine Linux' /etc/os-release; then
     apk add --no-cache p7zip
 elif grep -q 'Debian' /etc/os-release; then
     echo -e "${YELLOW}Detected Debian. Downloading 7zz...${NC}"
-    curl -sSL -o 7zz https://github.com/KenRen98/MLSG-Manual/raw/main/Panel%E5%B7%A5%E5%85%B7/7zz
+    curl -sSL -o 7zz https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz
     chmod +x 7zz
     apt update && apt install -y convmv
 elif grep -q 'Oracle Linux' /etc/os-release; then
@@ -34,7 +34,7 @@ elif grep -q 'Oracle Linux' /etc/os-release; then
 else
     # Download 7zz directly
     echo -e "${YELLOW}Downloading 7zz for Backup...${NC}"
-    curl -sSL -o 7zz https://github.com/KenRen98/MLSG-Manual/raw/main/Panel%E5%B7%A5%E5%85%B7/7zz
+    curl -sSL -o 7zz https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz
     chmod +x 7zz
 fi
 
@@ -43,7 +43,7 @@ LANG=C
 echo -e "${YELLOW}Setting language to: $LANG${NC}"
 
 echo -e "${YELLOW}Downloading the ZIP file of the repository...${NC}"
-curl -sSL -o MLSG-Manual.zip https://github.com/KenRen98/MLSG-Manual/archive/refs/heads/main.zip
+curl -sSL -o MLSG-Manual.zip https://github.com/Mr-Leaves-Server-Group/Manual/archive/refs/heads/deploy.zip
 
 echo -e "${YELLOW}Extracting the ZIP file...${NC}"
 rm -rf $REPO_DIR
