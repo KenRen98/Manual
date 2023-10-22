@@ -280,6 +280,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -885,6 +889,8 @@ CPU升级路线：Intel-E5 &lt; Ryzen2000 &lt; Intel-10th &lt; Ryzen3000 &lt; Ry
 <p><strong>文件 <code>dedicated_server_mods_setup.lua</code> 对应mod下载设置</strong>，按照上面的例子照写工整比较容易找和确认（只会下载，不会启用）。  </p>
 <h3 id="25mod">2.5.服务器启用MOD</h3>
 <p><strong>文件: <code>modoverrides.lua</code> 控制对应mod开启和设置</strong>，俩shard文件夹（Master和Cave）各一个，Cave的Mod通常只需要设置enable就行，不建议添加任何具体设置。  </p>
+<p><strong>温馨提示：<code>MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME</code> 文件夹里<br />
+有一些之前开服的Mod模板，包含添加Mod所需的两个文件，用之前建议根据自己需求修改一下</strong>  </p>
 <p><img alt="世界设置" src="/assets/dontstrave/mod-setup.png" /><br />
 <br></p>
 <h2 id="3">3.注意事项</h2>
@@ -892,7 +898,7 @@ CPU升级路线：Intel-E5 &lt; Ryzen2000 &lt; Intel-10th &lt; Ryzen3000 &lt; Ry
 <h3 id="31bug">3.1.已知BUG</h3>
 <ul>
 <li><strong>很多设置过的MOD在客户端运行的时候Cave是可以启动的，但服务器下Cave无法启动</strong><br />
-<strong>强烈建议，将Cave文件夹里的<code>modoverrides.lua</code>中的具体Mod设置（configuration_options={}部分）全部删除，仅保留enabled=true</strong>
+<strong>强烈建议，将Cave文件夹里的 <code>modoverrides.lua</code> 中的具体Mod设置（configuration_options={}部分）全部删除，仅保留enabled=true</strong>
   <img alt="Cave Bug" src="/assets/dontstrave/cave-bug.png" />
   <br></li>
 <li>该游戏由于年久失修，后台落后，操作不便是常态</li>
@@ -908,7 +914,9 @@ CPU升级路线：Intel-E5 &lt; Ryzen2000 &lt; Intel-10th &lt; Ryzen3000 &lt; Ry
 <br></li>
 </ul>
 <h2 id="4">4.重装服务器</h2>
-<p>直接删除master和cave文件夹里面的Save和Backup文件夹就可以了，这样服务器开机的时候就会重新生成所有东西。</p>
+<p>直接删除master和cave文件夹里面的Save和Backup文件夹就可以了，这样服务器开机的时候就会重新生成所有东西。
+由于饥荒的Mod文件配置比较繁琐，<strong>不建议删除所有文件重装</strong>，把 <code>modoverride.lua</code> 里的字段删了就好，当然也可以利用 
+<code>MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME</code> 文件夹里面的饥荒Mod模板。</p>
 
 
   

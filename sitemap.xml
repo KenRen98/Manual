@@ -31,12 +31,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.mr-leaves.com/2-serveradvanced/plan/</loc>
+         <lastmod>2023-10-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.mr-leaves.com/2-serveradvanced/reinstall/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://manual.mr-leaves.com/2-serveradvanced/steamcheck/</loc>
+         <lastmod>2023-10-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.mr-leaves.com/2-serveradvanced/subuser/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
