@@ -1,19 +1,12 @@
 name: Deploy MkDocs to GitHub Pages
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - mkdocs  # Trigger the workflow on merge to mkdocs branch
   push:
     branches:
-      - mkdocs  # Keep this if you also want to trigger on direct push to mkdocs branch
+      - mkdocs  # Trigger on direct push or merge to mkdocs branch
 
 jobs:
   deploy:
-    # Only run the job if the pull request was merged (not just closed without merging)
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
