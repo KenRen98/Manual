@@ -33,6 +33,9 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 ### 2.5.服务器启用MOD
 **文件: `modoverrides.lua` 控制对应mod开启和设置**，俩shard文件夹（Master和Cave）各一个，Cave的Mod通常只需要设置enable就行，不建议添加任何具体设置。  
 
+**温馨提示：`MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME` 文件夹里  
+有一些之前开服的Mod模板，包含添加Mod所需的两个文件，用之前建议根据自己需求修改一下**  
+
 ![世界设置](/assets/dontstrave/mod-setup.png)  
 <br>
 
@@ -43,7 +46,7 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 ### 3.1.已知BUG
 
 - **很多设置过的MOD在客户端运行的时候Cave是可以启动的，但服务器下Cave无法启动**  
-  **强烈建议，将Cave文件夹里的`modoverrides.lua`中的具体Mod设置（configuration_options={}部分）全部删除，仅保留enabled=true**
+  **强烈建议，将Cave文件夹里的 `modoverrides.lua` 中的具体Mod设置（configuration_options={}部分）全部删除，仅保留enabled=true**
   ![Cave Bug](/assets/dontstrave/cave-bug.png)
   <br>
 - 该游戏由于年久失修，后台落后，操作不便是常态
@@ -61,3 +64,5 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 ## 4.重装服务器
 
 直接删除master和cave文件夹里面的Save和Backup文件夹就可以了，这样服务器开机的时候就会重新生成所有东西。
+由于饥荒的Mod文件配置比较繁琐，**不建议删除所有文件重装**，把 `modoverride.lua` 里的字段删了就好，当然也可以利用 
+`MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME` 文件夹里面的饥荒Mod模板。

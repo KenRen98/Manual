@@ -8,7 +8,9 @@ nav:
   - 3.基本操作: 1-serverbasics.md
   - 4.进阶操作:
       - 2-serveradvanced/index.md
-      - 服务器软件重装: 2-serveradvanced/reinstall.md
+      - 邀请子用户管理: 2-serveradvanced/subuser.md
+      - 重装游戏服务器: 2-serveradvanced/reinstall.md
+      - 创建服务器计划: 2-serveradvanced/plan.md
       - SFTP传输大文件: 2-serveradvanced/filetransfer.md
       - Steam公开检查: 2-serveradvanced/steamcheck.md
   - 5.游戏教程: 
