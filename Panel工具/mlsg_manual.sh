@@ -19,13 +19,28 @@ echo -e "${BLUE}-------------------------------------------------${NC}"
 # Change to home directory
 cd $HOME_DIR
 
+# Download function to abstract the difference between curl and wget
+download_file() {
+    local url=$1
+    local output=$2
+
+    if command -v curl > /dev/null; then
+        curl -sSL -o "$output" "$url"
+    elif command -v wget > /dev/null; then
+        wget -qO "$output" "$url"
+    else
+        echo -e "${RED}Neither curl nor wget is available. Exiting.${NC}"
+        exit 1
+    fi
+}
+
 # Check OS and install 7z if necessary
 if grep -q 'Alpine Linux' /etc/os-release; then
     echo -e "${YELLOW}Detected Alpine Linux. Installing p7zip...${NC}"
     apk add --no-cache p7zip
 elif grep -q 'Debian' /etc/os-release; then
     echo -e "${YELLOW}Detected Debian. Downloading 7zz...${NC}"
-    curl -sSL -o 7zz https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz
+    download_file "https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz" "7zz"
     chmod +x 7zz
     apt update && apt install -y convmv
 elif grep -q 'Oracle Linux' /etc/os-release; then
@@ -34,7 +49,7 @@ elif grep -q 'Oracle Linux' /etc/os-release; then
 else
     # Download 7zz directly
     echo -e "${YELLOW}Downloading 7zz for Backup...${NC}"
-    curl -sSL -o 7zz https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz
+    download_file "https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/7zz" "7zz"
     chmod +x 7zz
 fi
 
@@ -43,7 +58,7 @@ LANG=C
 echo -e "${YELLOW}Setting language to: $LANG${NC}"
 
 echo -e "${YELLOW}Downloading the ZIP file of the repository...${NC}"
-curl -sSL -o MLSG-Manual.zip https://github.com/Mr-Leaves-Server-Group/Manual/archive/refs/heads/deploy.zip
+download_file "https://github.com/Mr-Leaves-Server-Group/Manual/archive/refs/heads/deploy.zip" "MLSG-Manual.zip"
 
 echo -e "${YELLOW}Extracting the ZIP file...${NC}"
 rm -rf $REPO_DIR
