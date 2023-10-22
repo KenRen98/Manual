@@ -41,9 +41,14 @@
 
 ## 3.来源声明
 本文档基于[翼龙中国](https://github.com/pterodactyl-china/panel)面板而撰写，同样适用于[Pterodactyl原版](https://github.com/pterodactyl/panel)面板，主要为经验总结  
-游戏预设除面板自带外，均来自以下开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)
+游戏预设除面板自带外，均来自以下开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
 <br>
 
 ## 4.参与贡献
 如果您也想贡献您的知识，可以加入我们的 [Github Repo](https://github.com/Mr-Leaves-Server-Group/Manual) 参与贡献代码或者知识！
-![Alt](https://repobeats.axiom.co/api/embed/d5d89515c205b7a06b1fbf982c4ae0677834f78f.svg "实时数据")
+![Alt](https://repobeats.axiom.co/api/embed/d5d89515c205b7a06b1fbf982c4ae0677834f78f.svg "实时数据")  
+<br>
+
+## 4.客服Discord
+如果有更多问题，您可以在Discord发布工单，48小时内会有客服帮助您解决问题。
+<iframe src="https://discord.com/widget?id=1140740078008795259&theme=dark" width="100%" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
