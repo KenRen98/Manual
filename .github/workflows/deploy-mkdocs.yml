@@ -14,7 +14,7 @@ jobs:
   deploy:
     # Only run the job if the pull request was merged (not just closed without merging)
     if: github.event.pull_request.merged == true
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Source
