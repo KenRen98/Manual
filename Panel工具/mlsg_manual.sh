@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
 # Define absolute paths
 HOME_DIR="$HOME"
 REPO_DIR="$HOME_DIR/MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME"
-REPO_MAIN_DIR="$HOME_DIR/MLSG-Manual-main"
+REPO_MAIN_DIR="$HOME_DIR/Manual-deploy"
 
 echo -e "${BLUE}-------------------------------------------------${NC}"
 echo -e "${GREEN}Starting the MLSG Installation...${NC}"
