@@ -1,15 +1,4 @@
-# 翼龙面板-中文开服说明书
-
-翼龙面板开服的中文说明书，各类开服说明的文档和截图教程。  
-该文档的初衷是用于避免每次手动向用户发送配置文件模板，后台指令表等内容。  
-
-**图文教程请看：[翼龙面板MLSG图文教程网站](https://manual.mr-leaves.com/)**
-
-本文档基于[翼龙中国](https://github.com/pterodactyl-china/panel)面板而撰写，同样适用于[Pterodactyl原版](https://github.com/pterodactyl/panel)面板  
-游戏预设(Egg)除原版自带以外，均来自以下俩开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
-
-![Alt](https://repobeats.axiom.co/api/embed/477c7f5014e1e9e0cfbc01100dbf73d9a59e7556.svg "实时数据")  
-
+# 翼龙面板-中文说明书自动化脚本
 
 ## 内容简介
 
