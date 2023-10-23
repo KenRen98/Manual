@@ -46,7 +46,7 @@
 
 ## 4.参与贡献
 如果您也想贡献您的知识，可以加入我们的 [Github Repo](https://github.com/Mr-Leaves-Server-Group/Manual) 参与贡献代码或者知识！
-![Alt](https://repobeats.axiom.co/api/embed/d5d89515c205b7a06b1fbf982c4ae0677834f78f.svg "实时数据")  
+![Alt](https://repobeats.axiom.co/api/embed/6914fe0ed67768d06c41e389afd99e005c3d2d19.svg "实时数据")  
 <br>
 
 ## 4.客服Discord

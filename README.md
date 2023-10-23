@@ -10,7 +10,7 @@
 本文档基于[翼龙中国](https://github.com/pterodactyl-china/panel)面板而撰写，同样适用于[Pterodactyl原版](https://github.com/pterodactyl/panel)面板  
 游戏预设(Egg)除原版自带以外，均来自以下俩开源Repo：[最全的主Repo](https://github.com/parkervcp/eggs/tree/master)，[较小的一个Repo](https://github.com/DEVBenSon/pterodactyl-eggs/tree/main)  
 
-![Alt](https://repobeats.axiom.co/api/embed/d5d89515c205b7a06b1fbf982c4ae0677834f78f.svg "实时数据")
+![Alt](https://repobeats.axiom.co/api/embed/6914fe0ed67768d06c41e389afd99e005c3d2d19.svg "实时数据")
 
 
 ## 内容简介
