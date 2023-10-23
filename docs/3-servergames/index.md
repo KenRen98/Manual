@@ -2,16 +2,16 @@
 
 ## 1.快速索引
 
-- **我的世界  -  Minecraft**
+- **[我的世界  -  Minecraft](/3-servergames/minecraft)**
     - [Vanilla](/3-servergames/minecraft/#21vanilla)
     - [Paper](/3-servergames/minecraft/#22paper)
     - [Forge](/3-servergames/minecraft/#23forge)
     - [Spigot](/3-servergames/minecraft/#24spigot)
     - [CurseForge](/3-servergames/minecraft/#25curseforge)
 
-- **反恐精英  -  Counter-Strike**
-    - [CS2](/3-servergames/cs/#CS2)
-    - [CSGO](/3-servergames/cs/#CSGO)
+- **[反恐精英  -  Counter-Strike](/3-servergames/cs)**
+    - [CS2](/3-servergames/cs)
+    - [CSGO](/3-servergames/cs)
 
 - **[方舟生存进化 - ARK Survival Evolved](/3-servergames/ark/)**
 
