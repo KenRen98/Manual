@@ -60,7 +60,7 @@
 # MLSG
 HOME="/mnt/server"
 cd $HOME
-curl -sSL -o mlsg_install.sh https://github.com/KenRen98/MLSG-Manual/raw/main/Panel%E5%B7%A5%E5%85%B7/mlsg_manual.sh
+curl -sSL -o mlsg_install.sh https://github.com/Mr-Leaves-Server-Group/Manual/raw/deploy/Panel%E5%B7%A5%E5%85%B7/mlsg_manual.sh
 chmod +x mlsg_install.sh
 ./mlsg_install.sh
 rm $HOME/mlsg_install.sh
