@@ -25,13 +25,13 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 ![Token设置](/assets/dontstrave/token-setup.png)  
 
 ### 2.3.设置世界生成参数
-**文件 `worldgenoverride.lua` 对应世界生成设置**，洞穴和地上各一个，内容不一样，从客户端的同名文件把override部分拷贝进改文件的override部分即可。  
+**文件 `worldgenoverride.lua` 对应世界生成设置**，洞穴和地上各一个，内容不一样，可以从客户端的文件把 `leveldataoverride.lua` 内的部分拷贝到文件内，**也可以直接把 `leveldataoverride.lua` 整个文件放入文件夹，但要删除 `worldgenoverride.lua` **。  
 
 ### 2.4.添加/下载MOD
-**文件 `dedicated_server_mods_setup.lua` 对应mod下载设置**，按照上面的例子照写工整比较容易找和确认（只会下载，不会启用）。  
+**文件 `dedicated_server_mods_setup.lua` 对应mod下载设置**，按照上面的例子照写工整比较容易找和确认（只会下载，不会启用，不下载当然也不会启用）。  
 
 ### 2.5.服务器启用MOD
-**文件: `modoverrides.lua` 控制对应mod开启和设置**，俩shard文件夹（Master和Cave）各一个，Cave的Mod通常只需要设置enable就行，不建议添加任何具体设置。  
+**文件: `modoverrides.lua` 控制对应mod开启和设置**，俩shard文件夹（Master和Cave）各一个，可以直接将在客户端设置好的同名文件拷贝过来。  
 
 **温馨提示：`MLSG-Chinese-Guide-and-Manual-for-Server-Admins-Please-READ-ME` 文件夹里  
 有一些之前开服的Mod模板，包含添加Mod所需的两个文件，用之前建议根据自己需求修改一下**  
@@ -45,12 +45,8 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 
 ### 3.1.已知BUG
 
-- **很多设置过的MOD在客户端运行的时候Cave是可以启动的，但服务器下Cave无法启动**  
-  **强烈建议，将Cave文件夹里的 `modoverrides.lua` 中的具体Mod设置（configuration_options={}部分）全部删除，仅保留enabled=true**
-  ![Cave Bug](/assets/dontstrave/cave-bug.png)
-  <br>
-- 该游戏由于年久失修，后台落后，操作不便是常态
-- 服务器Ping显示为???的问题，开发团队说只需要一个端口就应该可以显示ping，但实践中，该问题游戏发售起直至今天仍然天天发生。本问题无法解决，官方未对此进行Debug。Ping显示为???的原因猜测为：游戏开发时为了避免同一时间发出太多ICMP ECHO包，每个服务器只客户端只会Ping一次。导致一旦该Ping丢包（不管是服务器，还是客户端，还是中间网络丢包）会客户端都会显示为???  
+- **该游戏由于年久失修，后台落后，操作不便是常态**
+- **服务器Ping显示为???的问题，无法完美解决，等待一会会变化，之后每次都会显示** - 开发团队说只需要一个端口就应该可以显示ping，但实践中，该问题游戏发售起直至今天仍然天天发生。本问题无法解决，官方未对此进行Debug。Ping显示为???的原因猜测为：游戏开发时为了避免同一时间发出太多ICMP ECHO包，每个服务器只客户端只会Ping一次。导致一旦该Ping丢包（不管是服务器，还是客户端，还是中间网络丢包）会客户端都会显示为???  
 
 ### 3.2.弃用MOD
 
@@ -58,7 +54,7 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 
 ### 3.2.其他注意
 
-- **请记得更改 Cave 的 Server ID 避免重复无法识别多Shard**  
+- **请记得在 `server.ini` 中更改 Cave 的 Server ID 避免重复无法识别多Shard**  
 <br>
 
 ## 4.重装服务器

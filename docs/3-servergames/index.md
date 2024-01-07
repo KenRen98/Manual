@@ -26,3 +26,5 @@
 - **[森林之子  -  Son of The Forest](/3-servergames/sof/)**
 
 - **[雨中冒险2  -  Risk of Rain 2](/3-servergames/ror2/)**
+
+- **[七日杀  -  7 Days to Die](/3-servergames/7dd/)**
