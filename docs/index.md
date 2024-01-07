@@ -37,6 +37,8 @@
 - **森林之子  -  Son of The Forest**
 
 - **雨中冒险2  -  Risk of Rain 2**  
+
+- **七日杀  -  7 Days to Die**  
 <br>
 
 ## 3.来源声明
