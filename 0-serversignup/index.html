@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.35e1ed30.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -71,9 +71,6 @@
   
     <body dir="ltr">
   
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -122,6 +119,9 @@
         </div>
       </div>
     </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -210,6 +210,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
@@ -229,6 +230,7 @@
   
   
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -277,21 +279,27 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1.邀请邮件
+    <span class="md-ellipsis">
+      1.邀请邮件
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
-    2.设置密码
+    <span class="md-ellipsis">
+      2.设置密码
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#3" class="md-nav__link">
-    3.动态口令
+    <span class="md-ellipsis">
+      3.动态口令
+    </span>
   </a>
   
 </li>
@@ -306,6 +314,7 @@
     
       
       
+  
   
   
   
@@ -325,6 +334,7 @@
     
       
       
+  
   
   
   
@@ -381,11 +391,14 @@
   
   
   
+  
     
     
       
         
           
+        
+      
         
       
         
@@ -442,6 +455,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         
@@ -484,21 +498,27 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1.邀请邮件
+    <span class="md-ellipsis">
+      1.邀请邮件
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
-    2.设置密码
+    <span class="md-ellipsis">
+      2.设置密码
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#3" class="md-nav__link">
-    3.动态口令
+    <span class="md-ellipsis">
+      3.动态口令
+    </span>
   </a>
   
 </li>
@@ -519,10 +539,12 @@
 
 
 <h1 id="_1">注册登录</h1>
-<p>本文章为MLSG后台的注册教程，请您务必阅读。后台网址：<a href="http://panel.mr-leaves.com">panel.mr-leaves.com</a><br />
-您也可以在我们官网顶部左上角点击MLSG后台来访问页面，官网地址：<a href="http://mr-leaves.com">mr-leaves.com</a><br />
+<p>本文章为MLSG后台的注册教程，请您务必阅读。<br />
 请按照以下指引完成账户设置，方便使用服务器后台功能，大约3-5分钟即可。  </p>
-<p><img alt="公司官网" src="\assets\1.0\official-website.png" />  </p>
+<p><strong>服务器管理后台网址：<a href="http://panel.mr-leaves.com">panel.mr-leaves.com</a> （请阅读教程后再访问）</strong><br />
+<img alt="后台网站" src="\assets\1.0\panel-website.png" />  </p>
+<p><img alt="公司官网" src="\assets\1.0\official-website.png" /><br />
+官网顶部左上角点击访问MLSG后台，官网：<a href="http://mr-leaves.com">mr-leaves.com</a>（非管理页面，请勿注册）  </p>
 <hr />
 <h2 id="1">1.邀请邮件</h2>
 <p>在您完成支付后，系统会向您提供的Email发出邮件邀请，邀请您注册登录MLSG后台。
@@ -565,6 +587,13 @@
 
 <p><center>一次性紧急救援代码</center>
 <img alt="紧急救援代码" src="\assets\1.0\emergency-code.png" />  </p>
+
+
+
+
+
+
+
 
 
   
@@ -617,6 +646,7 @@
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
@@ -693,7 +723,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "navigation.path", "search.suggest", "search.share", "navigation.footer", "navigation.indexes", "navigation.prune", "navigation.top"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

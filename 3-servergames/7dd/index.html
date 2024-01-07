@@ -1,0 +1,1257 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MLSG翼龙面板-中文开服手册">
+      
+      
+      
+        <link rel="canonical" href="https://manual.mr-leaves.com/3-servergames/7dd/">
+      
+      
+        <link rel="prev" href="../pz/">
+      
+      
+        <link rel="next" href="../../about/">
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>七日杀（7 Days to Die） - MLSG中文手册</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../style/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-WV00ZV20JF"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-WV00ZV20JF",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-WV00ZV20JF",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#7-days-to-die" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="MLSG中文手册" class="md-header__button md-logo" aria-label="MLSG中文手册" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MLSG中文手册
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              七日杀（7 Days to Die）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLSG中文手册" class="md-nav__button md-logo" aria-label="MLSG中文手册" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    MLSG中文手册
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.手册简介
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0-serversignup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.注册登录
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1-serverbasics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.基本操作
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../2-serveradvanced/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4.进阶操作
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    5.游戏教程
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            5.游戏教程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../minecraft/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    我的世界（Minecraft）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dontstarve/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    饥荒联机版（Dont Strave）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rust/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    腐蚀/部落（Rust）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sof/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    森林之子（Son of Forest）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    方舟生存进化（ARK）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ror2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    雨中冒险2（RoR2）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valheim/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    英灵神殿（Valheim）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    反恐精英（Counter Strike）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    僵毁（Project Zombiod）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    七日杀（7 Days to Die）
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    七日杀（7 Days to Die）
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.推荐配置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.开服教程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.开服教程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.基础设置（管理后台）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.高级设置（游戏文件）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.服务器常用命令（后台）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.游戏Debug菜单（创造模式）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6.关于我们
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.推荐配置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.开服教程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.开服教程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.基础设置（管理后台）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.高级设置（游戏文件）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.服务器常用命令（后台）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.游戏Debug菜单（创造模式）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="7-days-to-die">七日杀（7 Days to Die）</h1>
+<p>也许是DayZ之前最经典的丧尸末日生存开放世界，什么？这两年才发售正式版？</p>
+<hr />
+<h2 id="1">1.推荐配置</h2>
+<p><strong>4G最少，8G起往上最好，Mod多的话内存越多越好</strong><br />
+<strong>推荐较好的CPU，该游戏可以利用多线程，建议最差不低于8700K</strong>  </p>
+<p><br></p>
+<h2 id="2">2.开服教程</h2>
+<p><strong>首次设置服务器，请仔细阅读以下内容</strong>  </p>
+<h3 id="21">2.1.基础设置（管理后台）</h3>
+<p><strong>后台设置将覆盖文件的设置</strong>，比如服务器端口，难度，玩家数量等。
+<img alt="后台设置" src="/assets/7dd/panel.png" />
+<br></p>
+<h3 id="22">2.2.高级设置（游戏文件）</h3>
+<p>服务器配置文件 <code>serverconfig.xml</code> 如下，<strong>建议对照以下翻译直接在后台修改文件</strong>：<br />
+<strong>注意：该文件很宽，注释都在右侧</strong></p>
+<pre><code>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;ServerSettings&gt;
+    &lt;!-- 服务器通用设置 --&gt;
+
+    &lt;!-- 服务器名称 --&gt;
+    &lt;property name=&quot;ServerName&quot;                     value=&quot;我的游戏主机&quot;/&gt;        &lt;!-- 你想要的服务器名称。 --&gt;
+    &lt;!-- 服务器描述 --&gt;
+    &lt;property name=&quot;ServerDescription&quot;              value=&quot;一个7天之内的服务器&quot;/&gt;    &lt;!-- 你想要的服务器描述，将显示在服务器浏览器中。 --&gt;
+    &lt;!-- 服务器网站链接 --&gt;
+    &lt;property name=&quot;ServerWebsiteURL&quot;               value=&quot;&quot;/&gt;                  &lt;!-- 服务器的网站链接，在服务器浏览器中将显示为可点击的链接。 --&gt;
+    &lt;!-- 服务器密码 --&gt;
+    &lt;property name=&quot;ServerPassword&quot;                 value=&quot;123&quot;/&gt;                   &lt;!-- 进入服务器所需的密码 --&gt;
+    &lt;!-- 进入服务器时的确认文本 --&gt;
+    &lt;property name=&quot;ServerLoginConfirmationText&quot;    value=&quot;&quot; /&gt;                 &lt;!-- 如果设置，玩家在加入服务器时将看到此消息，并必须确认后才能继续。对于对此窗口进行更复杂更改，你可以修改XUi中的“serverjoinrulesdialog”窗口 --&gt;
+    &lt;!-- 服务器所在地区 --&gt;
+    &lt;property name=&quot;Region&quot;                         value=&quot;NorthAmericaEast&quot; /&gt; &lt;!-- 该服务器所在地区。值：NorthAmericaEast, NorthAmericaWest, CentralAmerica, SouthAmerica, Europe, Russia, Asia, MiddleEast, Africa, Oceania --&gt;
+    &lt;!-- 服务器语言 --&gt;
+    &lt;property name=&quot;Language&quot;                       value=&quot;English&quot; /&gt;          &lt;!-- 玩家在此服务器上使用的主要语言。值：使用玩家预期搜索的任何语言名称。应该是该语言的英文名称，例如不是“Deutsch”而是“German”。 --&gt;
+
+    &lt;!-- 网络设置 --&gt;
+    &lt;!-- 服务器监听端口 --&gt;
+    &lt;property name=&quot;ServerPort&quot;                     value=&quot;26900&quot;/&gt;             &lt;!-- 你想要服务器监听的端口。保持在26900到26905或27015到27020范围内，以便局域网上的PC可以将其视为LAN服务器。 --&gt;
+    &lt;!-- 服务器可见性 --&gt;
+    &lt;property name=&quot;ServerVisibility&quot;               value=&quot;2&quot;/&gt;                 &lt;!-- 服务器的可见性：2 = 公共，1 = 仅对好友可见，0 = 不列出。由于独立服务器不会成为玩家的好友，将此设置为“1”仅在第一个玩家通过IP手动连接时才有效。 --&gt;
+    &lt;!-- 禁用的网络协议 --&gt;
+    &lt;property name=&quot;ServerDisabledNetworkProtocols&quot; value=&quot;SteamNetworking&quot;/&gt;   &lt;!-- 不应使用的网络协议，用逗号分隔。可能的值：LiteNetLib, SteamNetworking。如果独立服务器用户和服务器之间没有NAT路由器，或者端口转发已正确设置，独立服务器应禁用SteamNetworking --&gt;
+    &lt;!-- 最大世界传输速度 --&gt;
+    &lt;property name=&quot;ServerMaxWorldTransferSpeedKiBs&quot; value=&quot;512&quot;/&gt;              &lt;!-- 第一次连接时，世界传输到客户端的最大速度（以kiB/s为单位），如果客户端还没有世界。最大速度约为1300 kiB/s，即使设置更高的值也是如此。 --&gt;
+
+    &lt;!-- 插槽设置 --&gt;
+    &lt;!-- 最大玩家数量 --&gt;
+    &lt;property name=&quot;ServerMaxPlayerCount&quot;           value=&quot;8&quot;/&gt;                 &lt;!-- 最大同时在线玩家数 --&gt;
+    &lt;!-- 保留的插槽数量 --&gt;
+    &lt;property name=&quot;ServerReservedSlots&quot;            value=&quot;0&quot;/&gt;                 &lt;!-- 最大玩家数中的这么多插槽只能由具有特定权限级别的玩家使用 --&gt;
+    &lt;!-- 保留插槽所需的权限级别 --&gt;
+    &lt;property name=&quot;ServerReservedSlotsPermission&quot;  value=&quot;100&quot;/&gt;               &lt;!-- 使用保留插槽所需的权限级别 --&gt;
+    &lt;!-- 管理员插槽数量 --&gt;
+    &lt;property name=&quot;ServerAdminSlots&quot;               value=&quot;0&quot;/&gt;                 &lt;!-- 即使服务器已达到最大玩家数，仍可加入的管理员数量 --&gt;
+    &lt;!-- 管理员插槽所需的权限级别 --&gt;
+    &lt;property name=&quot;ServerAdminSlotsPermission&quot;     value=&quot;0&quot;/&gt;                 &lt;!-- 使用管理员插槽所需的权限级别 --&gt;
+
+    &lt;!-- 管理界面设置 --&gt;
+    &lt;!-- 启用/禁用Web仪表板 --&gt;
+    &lt;property name=&quot;WebDashboardEnabled&quot;            value=&quot;false&quot;/&gt;             &lt;!-- 启用/禁用Web仪表板 --&gt;
+    &lt;!-- Web仪表板端口 --&gt;
+    &lt;property name=&quot;WebDashboardPort&quot;               value=&quot;8080&quot;/&gt;              &lt;!-- Web仪表板的端口 --&gt;
+    &lt;!-- Web仪表板URL --&gt;
+    &lt;property name=&quot;WebDashboardUrl&quot;                value=&quot;&quot;/&gt;                  &lt;!-- Web仪表板的外部URL，如果Web仪表板位于反向代理后面，则需要提供完整的URL，例如&quot;https://domainOfReverseProxy.tld:1234/&quot;。如果直接使用公共IP和仪表板端口，则可以将其留空 --&gt;
+    &lt;!-- 启用/禁用地图渲染 --&gt;
+    &lt;property name=&quot;EnableMapRendering&quot;             value=&quot;false&quot;/&gt;             &lt;!-- 启用/禁用在探索地图时渲染地图为瓷块图像。Web仪表板用于显示地图的视图时会使用此功能。 --&gt;
+
+    &lt;!-- Telnet设置 --&gt;
+    &lt;!-- 启用/禁用Telnet --&gt;
+    &lt;property name=&quot;TelnetEnabled&quot;                  value=&quot;true&quot;/&gt;              &lt;!-- 启用/禁用Telnet --&gt;
+    &lt;!-- Telnet端口 --&gt;
+    &lt;property name=&quot;TelnetPort&quot;                     value=&quot;8081&quot;/&gt;              &lt;!-- Telnet服务器的端口 --&gt;
+    &lt;!-- Telnet密码 --&gt;
+    &lt;property name=&quot;TelnetPassword&quot;                 value=&quot;&quot;/&gt;                  &lt;!-- 进入Telnet界面所需的密码。如果没有设置密码，服务器只会在本地回环接口上监听 --&gt;
+    &lt;!-- Telnet失败登录限制 --&gt;
+    &lt;property name=&quot;TelnetFailedLoginLimit&quot;         value=&quot;10&quot;/&gt;                &lt;!-- 来自单个远程客户端的密码错误次数达到此值后，将阻止该客户端连接到Telnet界面 --&gt;
+    &lt;!-- Telnet失败登录阻止时间 --&gt;
+    &lt;property name=&quot;TelnetFailedLoginsBlocktime&quot;    value=&quot;10&quot;/&gt;                &lt;!-- 阻止将持续的时间（以秒为单位） --&gt;
+
+    &lt;!-- 终端窗口设置 --&gt;
+    &lt;property name=&quot;TerminalWindowEnabled&quot;          value=&quot;true&quot;/&gt;              &lt;!-- 显示用于日志输出/命令输入的终端窗口（仅适用于Windows） --&gt;
+
+    &lt;!-- 文件夹和文件位置设置 --&gt;
+    &lt;!-- 服务器管理员文件名 --&gt;
+    &lt;property name=&quot;AdminFileName&quot;                  value=&quot;serveradmin.xml&quot;/&gt;   &lt;!-- 服务器管理员文件名。相对于SaveGameFolder的路径 --&gt;
+    &lt;!-- 用户数据文件夹路径 --&gt;
+    &lt;!-- &lt;property name=&quot;UserDataFolder&quot;                value=&quot;绝对路径&quot; /&gt; --&gt; &lt;!-- 使用此选项来覆盖服务器存储的所有生成的数据，包括RWG生成的世界。不要忘记取消注释该条目！ --&gt;
+    &lt;!-- 存档文件夹路径 --&gt;
+    &lt;!-- &lt;property name=&quot;SaveGameFolder&quot;                value=&quot;绝对路径&quot; /&gt; --&gt; &lt;!-- 使用此选项只覆盖保存游戏路径。不要忘记取消注释该条目！ --&gt;
+
+    &lt;!-- 其他技术设置 --&gt;
+    &lt;!-- 启用/禁用EasyAntiCheat --&gt;
+    &lt;property name=&quot;EACEnabled&quot;                     value=&quot;true&quot;/&gt;              &lt;!-- 启用/禁用EasyAntiCheat --&gt;
+    &lt;!-- 隐藏命令执行日志 --&gt;
+    &lt;property name=&quot;HideCommandExecutionLog&quot;        value=&quot;0&quot;/&gt;                 &lt;!-- 隐藏命令执行的日志。0 = 显示所有，1 = 仅从Telnet/ControlPanel隐藏，2 = 也从远程游戏客户端隐藏，3 = 隐藏所有 --&gt;
+    &lt;!-- 每个玩家可开启的地图块数上限 --&gt;
+    &lt;property name=&quot;MaxUncoveredMapChunksPerPlayer&quot; value=&quot;131072&quot;/&gt;            &lt;!-- 覆盖每个玩家在游戏地图上可以揭示的块数上限。结果的最大地图文件大小限制为（x * 512字节），揭示的区域为（x * 256平方米）。默认值131072表示最多可以同时揭示32平方公里的区域 --&gt;
+    &lt;!-- 持久玩家配置文件 --&gt;
+    &lt;property name=&quot;PersistentPlayerProfiles&quot;       value=&quot;false&quot; /&gt;            &lt;!-- 如果禁用，则玩家可以使用任何选定的配置文件加入。如果启用，他们将使用他们上次加入时选择的配置文件 --&gt;
+
+    &lt;!-- 游戏设置 --&gt;
+
+    &lt;!-- 世界设置 --&gt;
+    &lt;!-- 游戏世界 --&gt;
+    &lt;property name=&quot;GameWorld&quot;                      value=&quot;Navezgane&quot;/&gt;         &lt;!-- &quot;RWG&quot;（见下面的WorldGenSeed和WorldGenSize选项）或已存在的世界名称，位于Worlds文件夹中（当前提供的有&quot;Navezgane&quot;、&quot;PREGEN01&quot;等） --&gt;
+    &lt;!-- 世界生成种子 --&gt;
+    &lt;property name=&quot;WorldGenSeed&quot;                   value=&quot;asdf&quot;/&gt;              &lt;!-- 如果是RWG，则这是生成新世界的种子。如果已经存在具有相同名称的世界，则将加载它 --&gt;
+    &lt;!-- 世界生成大小 --&gt;
+    &lt;property name=&quot;WorldGenSize&quot;                   value=&quot;6144&quot;/&gt;              &lt;!-- 如果是RWG，这控制创建的世界的宽度和高度。官方支持的尺寸在6144到10240之间，必须是2048的倍数，例如6144、8192、10240。 --&gt; 
+    &lt;!-- 游戏名称 --&gt;
+    &lt;property name=&quot;GameName&quot;                       value=&quot;我的游戏&quot;/&gt;          &lt;!-- 你想要的游戏名称。这影响保存游戏名称以及放置装饰物（树等）在世界中使用的种子。它不控制创建RWG世界的通用布局 --&gt;
+    &lt;!-- 游戏模式 --&gt;
+    &lt;property name=&quot;GameMode&quot;                       value=&quot;GameModeSurvival&quot;/&gt;  &lt;!-- 游戏模式：GameModeSurvival --&gt;
+
+    &lt;!-- 难度设置 --&gt;
+    &lt;!-- 游戏难度 --&gt;
+    &lt;property name=&quot;GameDifficulty&quot;                 value=&quot;1&quot;/&gt;                 &lt;!-- 0 - 5，0=最容易，5=最难 --&gt;
+    &lt;!-- 玩家对方块造成的伤害 --&gt;
+    &lt;property name=&quot;BlockDamagePlayer&quot;              value=&quot;100&quot; /&gt;              &lt;!-- 玩家对方块造成的伤害（以整数百分比表示） --&gt;
+    &lt;!-- AI对方块造成的伤害 --&gt;
+    &lt;property name=&quot;BlockDamageAI&quot;                  value=&quot;100&quot; /&gt;              &lt;!-- AI对方块造成的伤害（以整数百分比表示） --&gt;
+    &lt;!-- 血月期间AI对方块造成的伤害 --&gt;
+    &lt;property name=&quot;BlockDamageAIBM&quot;                value=&quot;100&quot; /&gt;              &lt;!-- 血月期间AI对方块造成的伤害（以整数百分比表示） --&gt;
+    &lt;!-- 经验值倍率 --&gt;
+    &lt;property name=&quot;XPMultiplier&quot;                   value=&quot;500&quot; /&gt;              &lt;!-- 经验值获取倍率（以整数百分比表示） --&gt;
+    &lt;!-- 玩家安全区级别 --&gt;
+    &lt;property name=&quot;PlayerSafeZoneLevel&quot;            value=&quot;5&quot; /&gt;                &lt;!-- 如果玩家等级小于或等于此级别，他将在生成时创建一个安全区域（没有敌人） --&gt;
+    &lt;!-- 安全区存在的游戏时间小时数 --&gt;
+    &lt;property name=&quot;PlayerSafeZoneHours&quot;            value=&quot;5&quot; /&gt;                &lt;!-- 安全区存在的游戏时间小时数 --&gt;
+
+    &lt;!-- 建筑模式设置 --&gt;
+    &lt;!-- 作弊模式开关 --&gt;
+    &lt;property name=&quot;BuildCreate&quot;                    value=&quot;false&quot; /&gt;            &lt;!-- 作弊模式开关 --&gt;
+    &lt;!-- 白天和夜晚的长度 --&gt;
+    &lt;property name=&quot;DayNightLength&quot;                 value=&quot;120&quot; /&gt;              &lt;!-- 游戏内一天的实际分钟数：60分钟 --&gt;
+&lt;!-- 夜晚日照时长 --&gt;
+    &lt;property name=&quot;DayLightLength&quot;                 value=&quot;18&quot; /&gt;               &lt;!-- 游戏中每天阳光照射的小时数：游戏内每天18小时日光 --&gt;
+    &lt;!-- 死亡惩罚 --&gt;
+    &lt;property name=&quot;DeathPenalty&quot;                   value=&quot;0&quot; /&gt;                &lt;!-- 死亡后的惩罚。0 = 无惩罚。1 = 默认：经典经验值惩罚。2 = 受伤：你保留大部分负面效果。食物和水在重生时设置为50%。3 = 永久死亡：你的角色将被完全重置。你将在保存的游戏中以全新的开始重生。 --&gt;
+    &lt;!-- 死亡时掉落物品 --&gt;
+    &lt;property name=&quot;DropOnDeath&quot;                    value=&quot;3&quot; /&gt;                &lt;!-- 0 = 无掉落，1 = 掉落所有物品，2 = 仅掉落工具栏，3 = 仅掉落背包，4 = 删除所有物品 --&gt;
+    &lt;!-- 退出游戏时掉落物品 --&gt;
+    &lt;property name=&quot;DropOnQuit&quot;                     value=&quot;0&quot; /&gt;                &lt;!-- 0 = 无掉落，1 = 掉落所有物品，2 = 仅掉落工具栏，3 = 仅掉落背包 --&gt;
+    &lt;!-- 床垫无僵尸区域大小 --&gt;
+    &lt;property name=&quot;BedrollDeadZoneSize&quot;            value=&quot;15&quot; /&gt;               &lt;!-- 床垫无僵尸区域的大小（盒子“半径”，因此是一个各边长为给定值两倍的盒子）。此区域内不会生成僵尸，且任何接触床垫无僵尸区域的清除睡眠体积在被清除后不会再生成。 --&gt;
+    &lt;!-- 床垫有效时间 --&gt;
+    &lt;property name=&quot;BedrollExpiryTime&quot;              value=&quot;45&quot; /&gt;               &lt;!-- 玩家最后一次在线后，床垫保持活跃的现实世界天数 --&gt;
+
+    &lt;!-- 性能相关 --&gt;
+    &lt;!-- 最大生成僵尸数 --&gt;
+    &lt;property name=&quot;MaxSpawnedZombies&quot;              value=&quot;128&quot; /&gt;              &lt;!-- 此设置涵盖整个地图。整个地图上同时只能有这么多僵尸。更改此设置对性能有巨大影响。 --&gt;
+    &lt;!-- 最大生成动物数 --&gt;
+    &lt;property name=&quot;MaxSpawnedAnimals&quot;              value=&quot;100&quot; /&gt;              &lt;!-- 如果你的服务器有大量玩家，你可以增加此限制以增加更多野生动物。动物的CPU消耗比僵尸少。注意：这并不会导致更多动物任意生成：生物群落生成系统只在给定区域内生成一定数量的动物，但如果你有很多玩家分散开来，你可能会达到限制，可以增加它。 --&gt;
+    &lt;!-- 服务器允许的最大视距 --&gt;
+    &lt;property name=&quot;ServerMaxAllowedViewDistance&quot;   value=&quot;12&quot; /&gt;               &lt;!-- 客户端可能请求的最大视距（6 - 12）。对内存使用和性能影响很大。 --&gt;
+    &lt;!-- 最大排队网格层 --&gt;
+    &lt;property name=&quot;MaxQueuedMeshLayers&quot;            value=&quot;1000&quot; /&gt;         &lt;!-- 在网格生成期间可以排队的最大块网格层数。降低此值将改善内存使用，但可能增加块生成时间 --&gt;
+
+    &lt;!-- 僵尸设置 --&gt;
+    &lt;!-- 敌人生成模式 --&gt;
+    &lt;property name=&quot;EnemySpawnMode&quot;                 value=&quot;true&quot; /&gt;             &lt;!-- 启用/禁用敌人生成 --&gt;
+    &lt;!-- 敌人难度 --&gt;
+    &lt;property name=&quot;EnemyDifficulty&quot;                value=&quot;0&quot; /&gt;                &lt;!-- 0 = 正常，1 = 狂野 --&gt;
+    &lt;!-- 僵尸夜间感知 --&gt;
+    &lt;property name=&quot;ZombieFeralSense&quot;               value=&quot;0&quot; /&gt;                &lt;!-- 0-3 (关闭，白天，夜间，全时段) --&gt;
+    &lt;!-- 僵尸移动模式 --&gt;
+    &lt;property name=&quot;ZombieMove&quot;                     value=&quot;0&quot; /&gt;                &lt;!-- 0-4 (行走，慢跑，跑步，疾跑，噩梦) --&gt;
+    &lt;!-- 僵尸夜间移动模式 --&gt;
+    &lt;property name=&quot;ZombieMoveNight&quot;                value=&quot;2&quot; /&gt;                &lt;!-- 0-4 (行走，慢跑，跑步，疾跑，噩梦) --&gt;
+    &lt;!-- 狂野僵尸移动模式 --&gt;
+    &lt;property name=&quot;ZombieFeralMove&quot;                value=&quot;2&quot; /&gt;                &lt;!-- 0-4 (行走，慢跑，跑步，疾跑，噩梦) --&gt;
+    &lt;!-- 血月僵尸移动模式 --&gt;
+    &lt;property name=&quot;ZombieBMMove&quot;                   value=&quot;3&quot; /&gt;                &lt;!-- 0-4 (行走，慢跑，跑步，疾跑，噩梦) --&gt;
+    &lt;!-- 血月频率 --&gt;
+    &lt;property name=&quot;BloodMoonFrequency&quot;             value=&quot;7&quot; /&gt;                &lt;!-- 血月发生的频率（以天数计）。设置为“0”表示无血月 --&gt;
+    &lt;!-- 血月范围 --&gt;
+    &lt;property name=&quot;BloodMoonRange&quot;                 value=&quot;0&quot; /&gt;                &lt;!-- 实际血月日与上述设置相比可以随机偏差的天数。将此设置为0使血月精确每N天发生一次，如BloodMoonFrequency所指定 --&gt;
+    &lt;!-- 血月预警 --&gt;
+    &lt;property name=&quot;BloodMoonWarning&quot;               value=&quot;8&quot; /&gt;                &lt;!-- 在血月日，红色日期数字开始显示的小时数。将此设置为-1使红色永远不显示。 --&gt;
+    &lt;!-- 血月敌人数量 --&gt;
+    &lt;property name=&quot;BloodMoonEnemyCount&quot;            value=&quot;16&quot; /&gt;               &lt;!-- 血月群战期间，每个玩家同时可以存活（生成）的僵尸数量，然而，在多人游戏中，MaxSpawnedZombies会覆盖此数字。另请注意，你的游戏阶段设置了每个队伍的最大僵尸数量。低游戏阶段值可能导致比BloodMoonEnemyCount设置更低的僵尸数量。更改此设置对性能有巨大影响。 --&gt;
+
+    &lt;!-- 战利品设置 --&gt;
+    &lt;!-- 战利品丰富度 --&gt;
+    &lt;property name=&quot;LootAbundance&quot;                  value=&quot;100&quot; /&gt;              &lt;!-- 以整数百分比表示 --&gt;
+    &lt;!-- 战利品重生天数 --&gt;
+    &lt;property name=&quot;LootRespawnDays&quot;                value=&quot;3&quot; /&gt;                &lt;!-- 以整天数表示 --&gt;
+    &lt;!-- 空投频率 --&gt;
+    &lt;property name=&quot;AirDropFrequency&quot;               value=&quot;72&quot;/&gt;                &lt;!-- 空投发生的游戏小时数，0 == 从不 --&gt;
+    &lt;!-- 空投标记 --&gt;
+    &lt;property name=&quot;AirDropMarker&quot;                  value=&quot;true&quot;/&gt;              &lt;!-- 设置是否在地图/指南针上为空投添加标记。 --&gt;
+
+    &lt;!-- 多人游戏设置 --&gt;
+    &lt;!-- 队伍共享击杀范围 --&gt;
+    &lt;property name=&quot;PartySharedKillRange&quot;           value=&quot;10000&quot;/&gt;             &lt;!-- 你必须在此范围内才能获得队伍共享击杀经验和任务队伍击杀目标完成度。 --&gt;
+    &lt;!-- 玩家杀戮模式 --&gt;
+    &lt;property name=&quot;PlayerKillingMode&quot;              value=&quot;2&quot; /&gt;                &lt;!-- 玩家杀戮设置（0 = 无杀戮，1 = 仅杀盟友，2 = 仅杀陌生人，3 = 杀戮所有人） --&gt;
+
+    &lt;!-- 土地所有权选项 --&gt;
+    &lt;property name=&quot;LandClaimCount&quot;                 value=&quot;3&quot;/&gt;                 &lt;!-- 每位玩家允许的最大土地所有权数量。 --&gt;
+    &lt;property name=&quot;LandClaimSize&quot;                  value=&quot;41&quot;/&gt;                &lt;!-- 由基石保护的区域大小（以方块计算）。 --&gt;
+    &lt;property name=&quot;LandClaimDeadZone&quot;              value=&quot;30&quot;/&gt;                &lt;!-- 基石之间必须保持这么多方块的间隔（除非你和另一位玩家是朋友）。 --&gt;
+    &lt;property name=&quot;LandClaimExpiryTime&quot;            value=&quot;7&quot;/&gt;                 &lt;!-- 玩家离线之后，其土地所有权在失效并不再受保护前可以有多少天的真实世界天数。 --&gt;
+    &lt;property name=&quot;LandClaimDecayMode&quot;             value=&quot;0&quot;/&gt;                 &lt;!-- 控制离线玩家土地所有权的衰退方式。0=慢速（线性），1=快速（指数级），2=无（直到所有权过期都完全保护）。 --&gt;
+    &lt;property name=&quot;LandClaimOnlineDurabilityModifier&quot;  value=&quot;4&quot;/&gt;             &lt;!-- 当玩家在线时，受保护的区域内方块硬度增加的倍数。0表示无限（永远不会受到伤害）。默认为4倍 --&gt;
+    &lt;property name=&quot;LandClaimOfflineDurabilityModifier&quot; value=&quot;4&quot;/&gt;             &lt;!-- 当玩家离线时，受保护的区域内方块硬度增加的倍数。0表示无限（永远不会受到伤害）。默认为4倍 --&gt;
+    &lt;property name=&quot;LandClaimOfflineDelay&quot;          value=&quot;0&quot;/&gt;                 &lt;!-- 玩家登出后，土地所有权区域的硬度从在线转变为离线所需的分钟数。默认为0 --&gt;
+
+    &lt;property name=&quot;DynamicMeshEnabled&quot;             value=&quot;true&quot;/&gt;              &lt;!-- 动态网格系统是否启用 --&gt;
+    &lt;property name=&quot;DynamicMeshLandClaimOnly&quot;       value=&quot;true&quot;/&gt;              &lt;!-- 动态网格系统是否仅在玩家LCB区域内活跃 --&gt;
+    &lt;property name=&quot;DynamicMeshLandClaimBuffer&quot;     value=&quot;3&quot;/&gt;                 &lt;!-- 动态网格LCB块半径 --&gt;
+    &lt;property name=&quot;DynamicMeshMaxItemCache&quot;        value=&quot;3&quot;/&gt;                 &lt;!-- 同时能处理的物品数量，数值越高使用的RAM越多 --&gt;
+
+    &lt;property name=&quot;TwitchServerPermission&quot;         value=&quot;90&quot;/&gt;                &lt;!-- 使用服务器上Twitch集成所需的权限等级 --&gt;
+    &lt;property name=&quot;TwitchBloodMoonAllowed&quot;         value=&quot;false&quot;/&gt;             &lt;!-- 服务器是否允许在血月期间进行Twitch操作。这可能会在血月期间生成额外僵尸时导致服务器延迟。 --&gt;
+
+    &lt;property name=&quot;MaxChunkAge&quot;                    value=&quot;-1&quot;/&gt;                &lt;!-- 自访问某个块以来必须经过的游戏内天数，以便在未重新访问或未受保护时（例如，通过土地所有权或床垫接近）重置其原始状态。 --&gt;
+    &lt;property name=&quot;SaveDataLimit&quot;                  value=&quot;-1&quot;/&gt;                &lt;!-- 每个保存游戏允许的最大磁盘空间，以兆字节（MB）为单位。当达到此限制时，已保存的块可能会被强制重置为其原始状态。负数值禁用限制。 --&gt;
+
+    &lt;!-- 有几个游戏设置在开始新游戏时无法更改。
+    您可以使用控制台命令在游戏中至少更改其中的一些。
+    setgamepref BedrollDeadZoneSize 30 --&gt;
+&lt;/ServerSettings&gt;
+</code></pre>
+<h3 id="23">2.3.服务器常用命令（后台）</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kick &lt;名字/实体ID/Steam ID&gt; [原因]</td>
+<td>踢出游戏中指定的玩家。可选提供原因。</td>
+</tr>
+<tr>
+<td>kickall [原因]</td>
+<td>踢出游戏中的所有玩家。可选提供原因。</td>
+</tr>
+<tr>
+<td>ban add &lt;名字/实体ID/Steam ID&gt; &lt;持续时间&gt; &lt;分钟/小时/天/周/月/年&gt; [原因]</td>
+<td>将玩家添加到封禁列表，指定封禁持续时间。原因是可选的。</td>
+</tr>
+<tr>
+<td>ban remove &lt;名字/实体ID/Steam ID&gt;</td>
+<td>从封禁列表中移除玩家。</td>
+</tr>
+<tr>
+<td>ban list</td>
+<td>显示所有被封禁玩家的列表，包括封禁持续时间、ID和封禁原因。</td>
+</tr>
+<tr>
+<td>admin add &lt;名字/实体ID/Steam ID&gt; &lt;权限级别&gt;</td>
+<td>将玩家添加到管理员列表，并分配特定的权限级别。可以使用实体ID、玩家名字或Steam ID。权限级别从0（完全权限）到1000（无权限）。</td>
+</tr>
+<tr>
+<td>admin remove &lt;名字/实体ID/Steam ID&gt;</td>
+<td>从管理员列表中移除指定玩家。</td>
+</tr>
+<tr>
+<td>whitelist add &lt;名字/实体ID/Steam ID&gt;</td>
+<td>将玩家添加到游戏白名单中。</td>
+</tr>
+<tr>
+<td>whitelist remove &lt;名字/实体ID/Steam ID&gt;</td>
+<td>从游戏白名单中移除玩家。</td>
+</tr>
+<tr>
+<td>whitelist list</td>
+<td>提供当前所有在游戏白名单中的玩家列表。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24debug">2.4.游戏Debug菜单（创造模式）</h3>
+<p><strong>有管理员权限情况下</strong>，游戏内按F1打开游戏命令行，输入cm打开创造模式，输入dm开启Debug模式。
+- 创造模式会在菜单U里面提供创意选项卡，可以直接拿出物品。
+- Debug模式会在Esc退出窗口提供，飞行，瞬移，隐身等功能。</p>
+<p><strong>视频教程</strong><br />
+个人推荐，内容比较全。</p>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/Lm0PiRig9qU" title="7 Days to Die Tutorial - Debug Menu | God Mode | Command Console | Dev Tools | Teleport Guide How To" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        以上的内容有用吗？
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="非常有用" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="有待进步" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              感谢您的反馈！
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              感谢您的反馈！帮助我们改进文档，您可以参与我们的<a href="https://github.com/Mr-Leaves-Server-Group/Manual" target="_blank" rel="noopener">Github项目</a>提供更多改进。
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../pz/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 僵毁（Project Zombiod）">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                僵毁（Project Zombiod）
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../about/" class="md-footer__link md-footer__link--next" aria-label="下一页: 6.关于我们">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                6.关于我们
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy;  2023 MLSG
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "navigation.path", "search.suggest", "search.share", "navigation.footer", "navigation.indexes", "navigation.prune", "navigation.top"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
