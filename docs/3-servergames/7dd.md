@@ -19,9 +19,15 @@
 ![后台设置](/assets/7dd/panel.png)
 <br>
 
+如果需要上传或者下载存档，**游戏存档文件夹所在位置如下**
+![后台设置](/assets/7dd/saves.png)
+<br>
+
 ### 2.2.高级设置（游戏文件）
 服务器配置文件 `serverconfig.xml` 如下，**建议对照以下翻译直接在后台修改文件**：  
 **注意：该文件很宽，注释都在右侧**
+
+![配置文件](/assets/7dd/config_file.png)
 
 ```
 <?xml version="1.0"?>
