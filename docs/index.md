@@ -39,6 +39,8 @@
 - **雨中冒险2  -  Risk of Rain 2**  
 
 - **七日杀  -  7 Days to Die**  
+
+- **幻兽帕鲁  -  Palworld**  
 <br>
 
 ## 3.来源声明

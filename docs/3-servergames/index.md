@@ -9,6 +9,8 @@
     - [Spigot](/3-servergames/minecraft/#24spigot)
     - [CurseForge](/3-servergames/minecraft/#25curseforge)
 
+- **[幻兽帕鲁  -  Palworld](/3-servergames/palworld/)**
+
 - **[反恐精英  -  Counter-Strike](/3-servergames/cs)**
     - [CS2](/3-servergames/cs)
     - [CSGO](/3-servergames/cs)
