@@ -37,8 +37,17 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 <br>
 
 ### 2.2.设置和倍率
-**在设置文件内直接修改数值**，**每个设置对应客户端的设置**，如下：  
-**注：每次修改务必关机修改，改完再开机，使用重启会导致修改后设置被刷回**  
+**每次修改务必关机修改，改完再开机，使用重启会导致修改后设置被刷回**  
+
+#### 2.2.1.基础设置
+**可以在服务器“启动”分页里面找到，如下图：**  
+**注：这部分设置会覆盖文件内的设置**  
+<center>![连接服务器](/assets/palworld/boot_setting.png)</center>
+<center>**成功登录管理员账户提示”**</center>
+
+#### 2.2.1.更多设置
+**在设置文件内可以直接修改数值**，**每个设置对应客户端的设置**，如下：  
+**文件 `/home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini`**  
 <center>
 
 | 设置名称                                   | 默认数值 | 中文描述                              |
