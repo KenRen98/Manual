@@ -2,11 +2,8 @@
 本文章为MLSG后台的注册教程，请您务必阅读。  
 请按照以下指引完成账户设置，方便使用服务器后台功能，大约3-5分钟即可。  
 
-**服务器管理后台网址：[panel.mr-leaves.com](http://panel.mr-leaves.com) （请阅读教程后再访问）**  
+**服务器管理后台网址：[panel.mr-leaves.com](http://panel.mr-leaves.com) （请阅读以下教程后，再访问）**  
 ![后台网站](\assets\1.0\panel-website.png)  
-
-![公司官网](\assets\1.0\official-website.png)  
-官网顶部左上角点击访问MLSG后台，官网：[mr-leaves.com](http://mr-leaves.com)（非管理页面，请勿注册）  
 
 ---
 
@@ -32,11 +29,11 @@
 <div style="display: flex; justify-content: center; text-align: center;">
   <div style="width: 50%; margin: 0 10px;">
     <p style="margin-bottom: 0;">APP Store</p>
-    <img src="../assets/1.0/Authenticator-apple.png" alt="APP Store" style="width: 100%;">
+    <a href="https://apps.apple.com/us/app/google-authenticator/id388497605"><img src="../assets/1.0/Authenticator-apple.png" alt="APP Store" style="width: 100%;"></a>
   </div>
   <div style="width: 50%; margin: 0 10px;">
     <p style="margin-bottom: 0;">Google Play</p>
-    <img src="../assets/1.0/Authenticator-google.png" alt="Google Play" style="width: 100%;">
+    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"><img src="../assets/1.0/Authenticator-google.png" alt="Google Play" style="width: 100%;"></a>
   </div>
 </div>
 
@@ -61,4 +58,8 @@
 
   <center>一次性紧急救援代码</center>
 ![紧急救援代码](\assets\1.0\emergency-code.png)  
+<br>
 
+## 4.其他入口
+官网顶部左上角点击访问MLSG后台，官网：[mr-leaves.com](http://mr-leaves.com)（非管理页面，请勿注册）  
+![公司官网](\assets\1.0\official-website.png)  

@@ -35,6 +35,8 @@
   - Paper
   - Vanilla
 
+- **幻兽帕鲁  -  Palworld**
+
 - **反恐精英  -  Counter-Strike: Global Offensive**
 
 - **方舟生存进化 - ARK Survival Evolved**
@@ -52,6 +54,7 @@
 - **雨中冒险2  -  Risk of Rain 2**
 
 - **七日杀  -  7 Days to Die**
+
 
 ## 使用方法
 
