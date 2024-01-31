@@ -1,5 +1,5 @@
 # 幻兽帕鲁（Palworld）
-一款多人合作的，纯爽动作射击游戏。
+宝可梦+ARK+我的世界，缝合游戏，捕捉Pal，战斗，生存，建筑，开放世界游戏。
 
 ---
 
@@ -174,4 +174,7 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 
 <center>![下载压缩文件](/assets/palworld/download_save.png)</center>
 <center>**下载压缩后的存档文件夹**</center>
+
+**如果要重新开始游戏，可以删除整个`Saved`文件夹**
+**如果想保存设置，但删除存档，可以删除`Saved/SaveGames`文件夹**
 <br>
