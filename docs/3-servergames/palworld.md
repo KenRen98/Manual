@@ -42,8 +42,8 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 #### 2.2.1.基础设置
 **可以在服务器“启动”分页里面找到，如下图：**  
 **注：这部分设置会覆盖文件内的设置**  
-<center>![连接服务器](/assets/palworld/boot_setting.png)</center>
-<center>**成功登录管理员账户提示”**</center>
+<center>![启动设置](/assets/palworld/boot_setting.png)</center>
+<center>**启动设置”**</center>
 
 #### 2.2.1.更多设置
 **在设置文件内可以直接修改数值**，**每个设置对应客户端的设置**，如下：  
@@ -110,10 +110,10 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 ### 2.3.管理员指令
 **要使用控制台指令**，**请在游戏内输入`/adminpassword <Admin密码>`**，如下图：  
 **注：管理员密码在后台“启动”分页，找 AdminPassword 值**  
-<center>![连接服务器](/assets/palworld/enter_password.png)</center>
+<center>![管理员登陆](/assets/palworld/enter_password.png)</center>
 <center>**管理员登陆指令**</center>  
 
-<center>![连接服务器](/assets/palworld/password_success.png)</center>
+<center>![管理员登陆成功](/assets/palworld/password_success.png)</center>
 <center>**成功登录管理员账户提示”**</center>
 <br>
 
@@ -154,7 +154,7 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 | 工会中玩家退出，会导致其他未退出玩家烂档     | 等待官方修复            |
 | 独立服务器，无法在游戏列表显示服务器          | 等待官方修复            |
 | 营地内的最大Pal数量上限设置无效              | 等待官方修复            |
-| 无法调整Boss刷新时间，默认为1销售            | 等待官方更新            |
+| 无法调整Boss刷新时间，默认为1小时            | 等待官方更新            |
 | 内存泄漏，游戏每隔一段时间会爆内存重启   | 部分修复，8G仍会爆       |
 | 卡Bug抓高塔Boss可能导致后期烂档              | 未确认是否为真          |
 | 使用近期连接过的列表加入，会提示创建角色 | 请用地址直接连接          |
