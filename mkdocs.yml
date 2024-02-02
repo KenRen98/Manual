@@ -50,7 +50,7 @@ plugins:
   - search
   - tags
   - git-revision-date-localized:
-      locale: en
+      locale: zh
 
 extra_css:
   - style/extra.css
