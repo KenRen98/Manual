@@ -20,6 +20,8 @@
     - Paper
     - Vanilla
 
+- **幻兽帕鲁  -  Palworld** 
+
 - **反恐精英  -  Counter-Strike**
     - CS2
     - CSGO
@@ -38,9 +40,7 @@
 
 - **雨中冒险2  -  Risk of Rain 2**  
 
-- **七日杀  -  7 Days to Die**  
-
-- **幻兽帕鲁  -  Palworld**  
+- **七日杀  -  7 Days to Die**   
 <br>
 
 ## 3.来源声明
