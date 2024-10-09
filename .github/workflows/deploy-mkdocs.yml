@@ -33,7 +33,7 @@ jobs:
       run: echo 'manual.mr-leaves.com' > ./site/CNAME  # Create CNAME file in ./site
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site  # The directory where MkDocs builds the site, usually './site'
