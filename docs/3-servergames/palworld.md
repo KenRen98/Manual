@@ -12,12 +12,27 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 <br>
 
 ## 2.开服教程
-**在服务器安装脚本运行完成后，请按照以下教程设置服务器。**
 
-### 2.1.服务器设置
-请从根目录 **`DefaultPalWorldSettings.ini`** 模板文件内拷贝游戏设置代码，并黏贴到设置文件  
-**`/home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini`**，具体操作如下图：  
-  
+**设置文件位置如下，每次修改务必关机修改，改完再开机**
+**Linux（默认）: /home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini**  
+**Windows（模组）: /home/container/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini**  
+
+### 2.1.方法一：使用在线设置工具
+点击使用 **[Palworld 服务器设置工具](https://pal-conf.bluefissure.com/)**
+<center>![配置生成器](/assets/palworld/configer.png)</center>
+<center>**使用配置生成器**</center>  
+
+<center>![配置生成器](/assets/palworld/configer-result.png)</center>
+<center>**拷贝生成的代码**</center>  
+
+<center>![设置文件](/assets/palworld/setting.png)</center>
+<center>**粘贴在设置文件**</center>  
+
+### 2.2.方法二：手动修改设置文件
+请从根目录 **`DefaultPalWorldSettings.ini`** 模板文件内，拷贝代码模板，并黏贴到对应的设置文件  
+**Linux（默认）: /home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini**  
+**Windows（模组）: /home/container/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini**  
+
 <center>![设置模板](/assets/palworld/defualt_config.png)</center>
 <center>**找到设置模板**</center>  
 
@@ -27,87 +42,7 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 <center>![设置文件](/assets/palworld/setting.png)</center>
 <center>**粘贴在设置文件**</center>  
 
-<br>
-**您也可以从以下代码框，复制默认设置代码：**  
-**注：推荐用上述方法，避免下方代码没更新**
-```
-[/Script/Pal.PalGameWorldSettings]
-OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.000000,ExpRate=1.000000,PalCaptureRate=1.000000,PalSpawnNumRate=1.000000,PalDamageRateAttack=1.000000,PalDamageRateDefense=1.000000,PlayerDamageRateAttack=1.000000,PlayerDamageRateDefense=1.000000,PlayerStomachDecreaceRate=1.000000,PlayerStaminaDecreaceRate=1.000000,PlayerAutoHPRegeneRate=1.000000,PlayerAutoHpRegeneRateInSleep=1.000000,PalStomachDecreaceRate=1.000000,PalStaminaDecreaceRate=1.000000,PalAutoHPRegeneRate=1.000000,PalAutoHpRegeneRateInSleep=1.000000,BuildObjectDamageRate=1.000000,BuildObjectDeteriorationDamageRate=1.000000,CollectionDropRate=1.000000,CollectionObjectHpRate=1.000000,CollectionObjectRespawnSpeedRate=1.000000,EnemyDropItemRate=1.000000,DeathPenalty=All,bEnablePlayerToPlayerDamage=False,bEnableFriendlyFire=False,bEnableInvaderEnemy=True,bActiveUNKO=False,bEnableAimAssistPad=True,bEnableAimAssistKeyboard=False,DropItemMaxNum=3000,DropItemMaxNum_UNKO=100,BaseCampMaxNum=128,BaseCampWorkerMaxNum=15,DropItemAliveMaxHours=1.000000,bAutoResetGuildNoOnlinePlayers=False,AutoResetGuildTimeNoOnlinePlayers=72.000000,GuildPlayerMaxNum=20,PalEggDefaultHatchingTime=72.000000,WorkSpeedRate=1.000000,bIsMultiplay=False,bIsPvP=False,bCanPickupOtherGuildDeathPenaltyDrop=False,bEnableNonLoginPenalty=True,bEnableFastTravel=True,bIsStartLocationSelectByMap=True,bExistPlayerAfterLogout=False,bEnableDefenseOtherGuildPlayer=False,CoopPlayerMaxNum=4,ServerPlayerMaxNum=32,ServerName="Default Palworld Server",ServerDescription="",AdminPassword="",ServerPassword="",PublicPort=8211,PublicIP="",RCONEnabled=False,RCONPort=25575,Region="",bUseAuth=True,BanListURL="https://api.palworldgame.com/api/banlist.txt")
-```
-<br>
-
-### 2.2.设置和倍率
-**每次修改务必关机修改，改完再开机，使用重启会导致修改后设置被刷回**  
-
-#### 2.2.1.基础设置
-**可以在服务器“启动”分页里面找到，如下图：**  
-**注：这部分设置会覆盖文件内的设置**  
-<center>![启动设置](/assets/palworld/boot_setting.png)</center>
-<center>**启动设置”**</center>
-
-#### 2.2.1.更多设置
-**在设置文件内可以直接修改数值**，**每个设置对应客户端的设置**，如下：  
-**文件 `/home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini`**  
-<center>
-
-| 设置名称                                   | 默认数值 | 中文描述                              |
-|-------------------------------------------|---------------|----------------------------------------------------|
-| `Difficulty`                               | None          | 难度级别                                             |
-| `DayTimeSpeedRate`                         | 1.000000      | 白天时间速率                                         |
-| `NightTimeSpeedRate`                       | 1.000000      | 夜晚时间速率                                         |
-| `ExpRate`                                  | 2.000000      | 经验值获取率                                         |
-| `PalCaptureRate`                           | 1.000000      | Pal捕获率                                           |
-| `PalSpawnNumRate`                          | 1.000000      | Pal生成数量率                                        |
-| `PalDamageRateAttack`                      | 1.000000      | Pal攻击伤害率                                       |
-| `PalDamageRateDefense`                     | 1.000000      | Pal防御伤害率                                       |
-| `PlayerDamageRateAttack`                   | 1.000000      | 玩家攻击伤害率                                       |
-| `PlayerDamageRateDefense`                  | 1.000000      | 玩家防御伤害率                                       |
-| `PlayerStomachDecreaceRate`                | 1.000000      | 玩家饥饿度下降率                                     |
-| `PlayerStaminaDecreaceRate`                | 1.000000      | 玩家耐力下降率                                       |
-| `PlayerAutoHPRegeneRate`                   | 1.000000      | 玩家自动生命恢复率                                   |
-| `PlayerAutoHpRegeneRateInSleep`            | 1.000000      | 玩家睡眠中的自动生命恢复率                           |
-| `PalStomachDecreaceRate`                   | 1.000000      | Pal饥饿度下降率                                      |
-| `PalStaminaDecreaceRate`                   | 1.000000      | Pal耐力下降率                                        |
-| `PalAutoHPRegeneRate`                      | 1.000000      | Pal自动生命恢复率                                    |
-| `PalAutoHpRegeneRateInSleep`               | 1.000000      | Pal睡眠中的自动生命恢复率                            |
-| `BuildObjectDamageRate`                    | 1.000000      | 建筑物损坏率                                         |
-| `BuildObjectDeteriorationDamageRate`       | 1.000000      | 建筑物老化损坏率                                     |
-| `CollectionDropRate`                       | 1.000000      | 收集掉落率                                           |
-| `CollectionObjectHpRate`                   | 1.000000      | 收集物品耐久度率                                     |
-| `CollectionObjectRespawnSpeedRate`         | 1.000000      | 收集物品刷新速率                                     |
-| `EnemyDropItemRate`                        | 1.000000      | 敌人掉落物品率                                       |
-| `DeathPenalty`                             | None          | 死亡惩罚                                             |
-| `bEnablePlayerToPlayerDamage`              | False         | 是否允许玩家对玩家伤害                               |
-| `bEnableFriendlyFire`                      | False         | 是否开启友军伤害                                     |
-| `bEnableInvaderEnemy`                      | True          | 是否启用入侵敌人                                     |
-| `bActiveUNKO`                              | False         | 激活UNKO (特定功能)                                 |
-| `bEnableAimAssistPad`                      | True          | 是否开启手柄瞄准辅助                                 |
-| `bEnableAimAssistKeyboard`                 | False         | 是否开启键盘鼠标瞄准辅助                             |
-| `DropItemMaxNum`                           | 3000          | 最大掉落物品数量                                     |
-| `DropItemMaxNum_UNKO`                      | 100           | UNKO最大掉落物品数量                                 |
-| `BaseCampMaxNum`                           | 128           | 基地最大数量                                         |
-| `BaseCampWorkerMaxNum`                     | 15            | 基地工人最大数量                                     |
-| `DropItemAliveMaxHours`                    | 1.000000      | 掉落物品存活最大时间（小时）                          |
-| `bAutoResetGuildNoOnlinePlayers`           | False         | 自动重置无在线玩家的公会                             |
-| `AutoResetGuildTimeNoOnlinePlayers`        | 72.000000     | 无在线玩家公会自动重置时间（小时）                    |
-| `GuildPlayerMaxNum`                        | 20            | 公会最大玩家数量                                     |
-| `PalEggDefaultHatchingTime`                | 0.000000      | Pal蛋默认孵化时间                                    |
-| `WorkSpeedRate`                            | 2.000000      | 工作速度率                                           |
-| `bIsMultiplay`                             | False         | 是否为多人游戏                                       |
-| `bIsPvP`                                   | False         | 是否为玩家对玩家（PvP）                              |
-| `bCanPickupOtherGuildDeathPenaltyDrop`     | False         | 是否可以拾取其他公会死亡掉落物                        |
-| `bEnableNonLoginPenalty`                   | True          | 是否启用未登录惩罚                                   |
-| `bEnableFastTravel`                        | True          | 是否启用快速旅行                                     |
-| `bIsStartLocationSelectByMap`              | True          | 是否通过地图选择起始位置                             |
-| `bExistPlayerAfterLogout`                  | False         | 玩家登出后是否仍然存在                               |
-| `bEnableDefenseOtherGuildPlayer`           | False         | 是否启用防御其他公会玩家                             |
-| `CoopPlayerMaxNum`                         | 4             | 合作模式最大玩家数量                                 |
-| `ServerPlayerMaxNum`                       | 32            | 服务器最大玩家数量                                   |
-| `ServerName`                               | "Default Palworld" | 服务器名称                                 |
-
-</center>  
-
-### 2.3.管理员指令
+### 2.3.游戏内：管理员登录和指令
 **要使用控制台指令**，**请在游戏内输入`/adminpassword <Admin密码>`**，如下图：  
 **注：管理员密码在后台“启动”分页，找 AdminPassword 值**  
 <center>![管理员登陆](/assets/palworld/enter_password.png)</center>
@@ -150,14 +85,14 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 
 | 已知问题                           | 解决方法 / 当前状态         |
 |---------------------------------------------|-----------------------|
-| 独立服务器，直接连接无法输入密码              | 已修复，加入前勾选密码    |
-| 工会中玩家退出，会导致其他未退出玩家烂档     | 等待官方修复            |
-| 独立服务器，无法在游戏列表显示服务器          | 等待官方修复            |
-| 营地内的最大Pal数量上限设置无效              | 等待官方修复            |
-| 无法调整Boss刷新时间，默认为1小时            | 等待官方更新            |
-| 内存泄漏，游戏每隔一段时间会爆内存重启   | 部分修复，8G仍会爆       |
-| 卡Bug抓高塔Boss可能导致后期烂档              | 未确认是否为真          |
-| 使用近期连接过的列表加入，会提示创建角色 | 请用地址直接连接          |
+| 独立服务器，直接连接无法输入密码              | 已修复    |
+| 工会中玩家退出，会导致其他未退出玩家烂档     | 已修复            |
+| 独立服务器，无法在游戏列表显示服务器          | 已修复            |
+| 营地内的最大Pal数量上限设置无效              | 无效设置            |
+| 无法调整Boss刷新时间，默认为1小时            | 已修复            |
+| 内存泄漏，游戏每隔一段时间会爆内存重启   | 已修复       |
+| 卡Bug抓高塔Boss可能导致后期烂档              | 已修复          |
+| 使用近期连接过的列表加入，会提示创建角色 | 已修复          |
 | 各种卡地形，看起来像是服务器卡顿          | 请以Server FPS为准       |
 
 </center>
