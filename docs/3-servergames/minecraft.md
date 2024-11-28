@@ -16,12 +16,12 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 
 | Minecraft服务端版本号 | JDK/Java推荐版本 |
 | -------------------- | ---------------- |
-| 1.7-                 | 8                |
-| 1.8+                 | 8/11             |
-| 1.12+ ~ 1.15+        | 8/11             |
-| 1.16+                | 11/16            |
-| 1.17+ ~ 1.19+        | 16/17            |
-| 1.20+                | 17/18            |
+| 1.7+                 | 8                |
+| 1.12+ ~ 1.15+        | 8            |
+| 1.16+                | 8/11            |
+| 1.17+ ~ 1.20+        | 17            |
+| 1.20.6+                | 21            |
+
 
 ### 2.1.Vanilla
 
@@ -70,16 +70,28 @@ Paper的插件可以直接放入**插件文件夹Plugins**里，通常可以从[
 
 ### 2.5.CurseForge
 
-通常情况下CurseForge模板需要您申请API后才能使用，[申请地址](https://support.curseforge.com/en/support/solutions/articles/9000208346-about-the-curseforge-api-and-how-to-apply-for-a-key#key)。  
-**但MLSG已经获批企业第三方API，可以直接使用，只需用户填入Project-ID和File-ID即可。**  
-![CurseForge后台](\assets\minecraft\curseforge-panel.png)
-<center>**Project-ID可以在对应CurseForge模组包的主页右侧找到**  
-**File-ID则在，具体文件页面的顶部URL最后部分（服务器必须要Server Pack的File-ID）**</center>
+#### 2.5.1.服务器端自动安装  
+**MLSG支持服务器端自动安装，只需用户填入 Project-ID 和 File-ID 服务器就会安装对应服务器端。**  
+<hr/>
+<center>**填写完成后，删除服务器所有文件，然后在 设置 选项卡，点击重装服务器**</center>  
+![CurseForge后台](\assets\minecraft\curseforge-panel.png)  
 
+<hr/>
+<center>**[CurseForge模组包列表](https://curseforge.com/minecraft/modpacks)，Project-ID在对应模组包主页右侧找到**  
+**File-ID则在，具体文件页面的顶部URL最后部分（服务器必须要Server Pack的File-ID）**</center>  
 ![CurseForge-IDs](\assets\minecraft\curseforge-1.png)
 ![CurseForge-IDs](\assets\minecraft\curseforge-2.png)
 ![CurseForge-IDs](\assets\minecraft\curseforge-3.png)
 ![CurseForge-IDs](\assets\minecraft\curseforge-4.png)  
+
+
+#### 2.5.2.客户端安装模组包  
+**客户端使用CurseForge教程如下，同样以上面的ATM9为例：**  
+<hr/>
+<center>点击[CurseForge官网](https://www.curseforge.com/download/app)下载客户端安装器，下载完成后，搜索并安装对应的模组包</center>  
+![CurseForge客户端下载](\assets\minecraft\curseforge-client.png)
+![CurseForge安装模组包](\assets\minecraft\curseforge-modpack.png)
+![CurseForge其他功能](\assets\minecraft\curseforge-demo.png)
 <br>
 
 ## 3.注意事项
@@ -97,6 +109,11 @@ Paper的插件可以直接放入**插件文件夹Plugins**里，通常可以从[
 - **Heap的最大内存为分配内存的50%-75%之间，或者留2G，比如12G的分配，Heap给10G**
 - 部分JVM的Flag**建议不要使用**，包括：**-XX:+DisableExplicitGC**，**-XX:+AlwaysPreTouch**  
   以上Flag可能导致爆内存问题频繁发生，导致服务器频繁触发OOM，自动重启  
+
+### 3.3.模组上手
+- 由于模组服对服务器/客户端版本对应要求非常严格，推荐新玩家从Curseforge打包好的模组包开始。
+**[CurseForge官网 - 模组包列表](https://curseforge.com/minecraft/modpacks)**  
+- 如果想玩第三方模组包（如MCmod，B站，笔记），需要玩家提供服务器端模组包，以及自己分发客户端模组包（所有玩家客户端模组需要统一）  
 <br>
 
 ## 4.地图载入速度
