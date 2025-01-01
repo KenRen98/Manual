@@ -12,7 +12,7 @@
 ## 2. 开服教程
 请按照以下指引，填入对应内容  
 存档文件夹：`/home/container/.config/unity3d/IronGate/Valheim`
-![设置](\assets\valheim\settings.png)  
+![设置](/assets/valheim/settings.png)  
 <br>
 
 
