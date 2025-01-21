@@ -5,7 +5,7 @@
 - **[我的世界  -  Minecraft](/3-servergames/minecraft)**
     - [Vanilla](/3-servergames/minecraft/#21vanilla)
     - [Paper](/3-servergames/minecraft/#22paper)
-    - [Forge](/3-servergames/minecraft/#23forge)
+    - [Forge/NeoForge](/3-servergames/minecraft/#23forge)
     - [Spigot](/3-servergames/minecraft/#24spigot)
     - [CurseForge](/3-servergames/minecraft/#25curseforge)
 

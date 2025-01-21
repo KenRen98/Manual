@@ -13,11 +13,12 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 
 ## 2.开服教程
 
-**设置文件位置如下，每次修改务必关机修改，改完再开机**
-**Linux（默认）: /home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini**  
-**Windows（模组）: /home/container/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini**  
+**配置文件位置如下**，每次修改务必 **关闭服务器修改，改完再启动服务器**  
+**Linux（默认）**```/home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini```  
+**Windows（模组）**```/home/container/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini```  
+**注意：未关闭服务器修改配置文件，或错误配置文件，将导致配置文件将被刷回默认值**
 
-### 2.1.方法一：使用在线设置工具
+### 2.1.方法一：使用在线配置工具
 点击使用 **[Palworld 服务器设置工具](https://pal-conf.bluefissure.com/)**
 <center>![配置生成器](/assets/palworld/configer.png)</center>
 <center>**使用配置生成器**</center>  
@@ -25,10 +26,10 @@ CPU升级路线：Intel-E5 < Ryzen2000 < Intel-10th < Ryzen3000 < Ryzen5000 < Ry
 <center>![配置生成器](/assets/palworld/configer-result.png)</center>
 <center>**拷贝生成的代码**</center>  
 
-<center>![设置文件](/assets/palworld/setting.png)</center>
+<center>![配置文件位置](/assets/palworld/setting.png)</center>
 <center>**粘贴在设置文件**</center>  
 
-### 2.2.方法二：手动修改设置文件
+### 2.2.方法二：手动修改配置文件
 请从根目录 **`DefaultPalWorldSettings.ini`** 模板文件内，拷贝代码模板，并黏贴到对应的设置文件  
 **Linux（默认）: /home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini**  
 **Windows（模组）: /home/container/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini**  
